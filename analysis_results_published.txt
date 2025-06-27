@@ -1,0 +1,1117 @@
+==============================
+container-logistics
+------------------------------
+Transport Document
+------------------------------
+#places 14
+#transitions 18
+#arcs 38
+fitness: token based replay {'perc_fit_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0, 'percentage_of_fitting_traces': 100.0}
+fitness: alignments {'percFitTraces': 100.0, 'averageFitness': 1.0, 'percentage_of_fitting_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 0.9999015476308093}
+precision: token based replay 0.7327908511106224
+precision: alignments 0.7327908511106224
+generalization 0.7888496763857271
+simplicity 0.7272727272727273
+Input is ok.
+Petri Net is a workflow net.
+Every place is covered by s-components.
+There are no dead tasks.
+All tasks are live.
+is_sound True
+------------------------------
+Truck
+------------------------------
+#places 4
+#transitions 5
+#arcs 10
+fitness: token based replay {'perc_fit_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0, 'percentage_of_fitting_traces': 100.0}
+fitness: alignments {'percFitTraces': 100.0, 'averageFitness': 1.0, 'percentage_of_fitting_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 0.9999000000095633}
+precision: token based replay 0.5007973210014351
+precision: alignments 0.5007973210014351
+generalization 0.8284830217943981
+simplicity 0.8181818181818181
+Input is ok.
+Petri Net is a workflow net.
+Every place is covered by s-components.
+There are no dead tasks.
+All tasks are live.
+is_sound True
+------------------------------
+Customer Order
+------------------------------
+#places 3
+#transitions 3
+#arcs 6
+fitness: token based replay {'perc_fit_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0, 'percentage_of_fitting_traces': 100.0}
+fitness: alignments {'percFitTraces': 100.0, 'averageFitness': 1.0, 'percentage_of_fitting_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 0.9999996655630247}
+precision: token based replay 1.0
+precision: alignments 1.0
+generalization 0.8366321278322132
+simplicity 1.0
+Input is ok.
+Petri Net is a workflow net.
+Every place is covered by s-components.
+There are no dead tasks.
+All tasks are live.
+is_sound True
+------------------------------
+Handling Unit
+------------------------------
+#places 3
+#transitions 2
+#arcs 4
+fitness: token based replay {'perc_fit_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0, 'percentage_of_fitting_traces': 100.0}
+fitness: alignments {'percFitTraces': 100.0, 'averageFitness': 1.0, 'percentage_of_fitting_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0}
+precision: token based replay 1.0
+precision: alignments 1.0
+generalization 0.990265536278372
+simplicity 1.0
+Input is ok.
+Petri Net is a workflow net.
+Every place is covered by s-components.
+There are no dead tasks.
+All tasks are live.
+is_sound True
+------------------------------
+Forklift
+------------------------------
+#places 4
+#transitions 7
+#arcs 14
+fitness: token based replay {'perc_fit_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0, 'percentage_of_fitting_traces': 100.0}
+fitness: alignments {'percFitTraces': 100.0, 'averageFitness': 1.0, 'percentage_of_fitting_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 0.9999000000077509}
+precision: token based replay 0.2501615404497286
+precision: alignments 0.2501615404497286
+generalization 0.8204197820933314
+simplicity 0.6470588235294118
+Input is ok.
+Petri Net is a workflow net.
+Every place is covered by s-components.
+There are no dead tasks.
+All tasks are live.
+is_sound True
+------------------------------
+Container
+------------------------------
+#places 13
+#transitions 22
+#arcs 44
+fitness: token based replay {'perc_fit_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0, 'percentage_of_fitting_traces': 100.0}
+fitness: alignments {'percFitTraces': 100.0, 'averageFitness': 1.0, 'percentage_of_fitting_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 0.9999475356231615}
+precision: token based replay 0.2381034131949743
+precision: alignments 0.2381034131949743
+generalization 0.8819232211506072
+simplicity 0.6603773584905661
+Input is ok.
+Petri Net is a workflow net.
+Every place is covered by s-components.
+There are no dead tasks.
+All tasks are live.
+is_sound True
+------------------------------
+Vehicle
+------------------------------
+#places 4
+#transitions 6
+#arcs 12
+fitness: token based replay {'perc_fit_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0, 'percentage_of_fitting_traces': 100.0}
+fitness: alignments {'percFitTraces': 100.0, 'averageFitness': 1.0, 'percentage_of_fitting_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 0.9999122551027212}
+precision: token based replay 0.3977685291773665
+precision: alignments 0.3977685291773665
+generalization 0.9290739581695541
+simplicity 0.7142857142857143
+Input is ok.
+Petri Net is a workflow net.
+Every place is covered by s-components.
+There are no dead tasks.
+All tasks are live.
+is_sound True
+==============================
+==============================
+procure-to-pay
+------------------------------
+purchase_requisition
+------------------------------
+#places 4
+#transitions 6
+#arcs 12
+fitness: token based replay {'perc_fit_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0, 'percentage_of_fitting_traces': 100.0}
+fitness: alignments {'percFitTraces': 100.0, 'averageFitness': 1.0, 'percentage_of_fitting_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 0.9999880441475287}
+precision: token based replay 0.6100543478260869
+precision: alignments 0.6100543478260869
+generalization 0.9428100581368585
+simplicity 0.7142857142857143
+Input is ok.
+Petri Net is a workflow net.
+Every place is covered by s-components.
+There are no dead tasks.
+All tasks are live.
+is_sound True
+------------------------------
+purchase_order
+------------------------------
+#places 5
+#transitions 6
+#arcs 12
+fitness: token based replay {'perc_fit_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0, 'percentage_of_fitting_traces': 100.0}
+fitness: alignments {'percFitTraces': 100.0, 'averageFitness': 1.0, 'percentage_of_fitting_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 0.9999569742495376}
+precision: token based replay 0.8713312368972747
+precision: alignments 0.8713312368972747
+generalization 0.9786340413960801
+simplicity 0.8461538461538463
+Input is ok.
+Petri Net is a workflow net.
+Every place is covered by s-components.
+There are no dead tasks.
+All tasks are live.
+is_sound True
+------------------------------
+goods receipt
+------------------------------
+#places 4
+#transitions 7
+#arcs 14
+fitness: token based replay {'perc_fit_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0, 'percentage_of_fitting_traces': 100.0}
+fitness: alignments {'percFitTraces': 100.0, 'averageFitness': 1.0, 'percentage_of_fitting_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 0.9999000031554849}
+precision: token based replay 0.4442138789692115
+precision: alignments 0.4442138789692115
+generalization 0.9803320364294361
+simplicity 0.6470588235294118
+Input is ok.
+Petri Net is a workflow net.
+Every place is covered by s-components.
+There are no dead tasks.
+All tasks are live.
+is_sound True
+------------------------------
+invoice receipt
+------------------------------
+#places 6
+#transitions 8
+#arcs 16
+fitness: token based replay {'perc_fit_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0, 'percentage_of_fitting_traces': 100.0}
+fitness: alignments {'percFitTraces': 100.0, 'averageFitness': 1.0, 'percentage_of_fitting_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 0.9999134343775572}
+precision: token based replay 0.6114709949778004
+precision: alignments 0.6114709949778004
+generalization 0.967963150896884
+simplicity 0.7777777777777779
+Input is ok.
+Petri Net is a workflow net.
+Every place is covered by s-components.
+There are no dead tasks.
+All tasks are live.
+is_sound True
+------------------------------
+payment
+------------------------------
+#places 4
+#transitions 4
+#arcs 8
+fitness: token based replay {'perc_fit_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0, 'percentage_of_fitting_traces': 100.0}
+fitness: alignments {'percFitTraces': 100.0, 'averageFitness': 1.0, 'percentage_of_fitting_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 0.9999000088573138}
+precision: token based replay 1.0
+precision: alignments 1.0
+generalization 0.9600853470218819
+simplicity 1.0
+Input is ok.
+Petri Net is a workflow net.
+Every place is covered by s-components.
+There are no dead tasks.
+All tasks are live.
+is_sound True
+------------------------------
+material
+------------------------------
+#places 3
+#transitions 3
+#arcs 6
+fitness: token based replay {'perc_fit_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0, 'percentage_of_fitting_traces': 100.0}
+fitness: alignments {'percFitTraces': 100.0, 'averageFitness': 1.0, 'percentage_of_fitting_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0}
+precision: token based replay 1.0
+precision: alignments 1.0
+generalization 0.9645555611912074
+simplicity 1.0
+Input is ok.
+Petri Net is a workflow net.
+Every place is covered by s-components.
+There are no dead tasks.
+All tasks are live.
+is_sound True
+------------------------------
+quotation
+------------------------------
+#places 4
+#transitions 5
+#arcs 10
+fitness: token based replay {'perc_fit_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0, 'percentage_of_fitting_traces': 100.0}
+fitness: alignments {'percFitTraces': 100.0, 'averageFitness': 1.0, 'percentage_of_fitting_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 0.9999465291880114}
+precision: token based replay 0.8375461128569477
+precision: alignments 0.8375461128569477
+generalization 0.9726573407028495
+simplicity 0.8181818181818181
+Input is ok.
+Petri Net is a workflow net.
+Every place is covered by s-components.
+There are no dead tasks.
+All tasks are live.
+is_sound True
+==============================
+==============================
+order-management
+------------------------------
+employees
+------------------------------
+#places 18
+#transitions 27
+#arcs 56
+fitness: token based replay {'perc_fit_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0, 'percentage_of_fitting_traces': 100.0}
+fitness: alignments {'percFitTraces': 100.0, 'averageFitness': 1.0, 'percentage_of_fitting_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 0.9998970931319777}
+precision: token based replay 0.23630519279652473
+precision: alignments 0.23630519279652473
+generalization 0.8453898949253436
+simplicity 0.6716417910447761
+Input is ok.
+Petri Net is a workflow net.
+Every place is covered by s-components.
+There are no dead tasks.
+All tasks are live.
+is_sound True
+------------------------------
+products
+------------------------------
+#places 4
+#transitions 14
+#arcs 28
+fitness: token based replay {'perc_fit_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0, 'percentage_of_fitting_traces': 100.0}
+fitness: alignments {'percFitTraces': 100.0, 'averageFitness': 1.0, 'percentage_of_fitting_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 0.9999000000073104}
+precision: token based replay 0.09110687473303336
+precision: alignments 0.09110687473303336
+generalization 0.9547541376829811
+simplicity 0.47368421052631576
+Input is ok.
+Petri Net is a workflow net.
+Every place is covered by s-components.
+There are no dead tasks.
+All tasks are live.
+is_sound True
+------------------------------
+packages
+------------------------------
+#places 7
+#transitions 8
+#arcs 16
+fitness: token based replay {'perc_fit_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0, 'percentage_of_fitting_traces': 100.0}
+fitness: alignments {'percFitTraces': 100.0, 'averageFitness': 1.0, 'percentage_of_fitting_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 0.9999796725940008}
+precision: token based replay 0.9994156603038566
+precision: alignments 0.9994156603038566
+generalization 0.9478303300200297
+simplicity 0.8823529411764706
+Input is ok.
+Petri Net is a workflow net.
+Every place is covered by s-components.
+There are no dead tasks.
+All tasks are live.
+is_sound True
+------------------------------
+customers
+------------------------------
+#places 4
+#transitions 5
+#arcs 10
+fitness: token based replay {'perc_fit_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0, 'percentage_of_fitting_traces': 100.0}
+fitness: alignments {'percFitTraces': 100.0, 'averageFitness': 1.0, 'percentage_of_fitting_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 0.9999000000747198}
+precision: token based replay 0.510625
+precision: alignments 0.510625
+generalization 0.8846079485319973
+simplicity 0.8181818181818181
+Input is ok.
+Petri Net is a workflow net.
+Every place is covered by s-components.
+There are no dead tasks.
+All tasks are live.
+is_sound True
+------------------------------
+orders
+------------------------------
+#places 7
+#transitions 8
+#arcs 16
+fitness: token based replay {'perc_fit_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0, 'percentage_of_fitting_traces': 100.0}
+fitness: alignments {'percFitTraces': 100.0, 'averageFitness': 1.0, 'percentage_of_fitting_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 0.9999795801435597}
+precision: token based replay 0.9996714848883048
+precision: alignments 0.9996714848883048
+generalization 0.960044016295738
+simplicity 0.8823529411764706
+Input is ok.
+Petri Net is a workflow net.
+Every place is covered by s-components.
+There are no dead tasks.
+All tasks are live.
+is_sound True
+------------------------------
+items
+------------------------------
+#places 4
+#transitions 13
+#arcs 26
+fitness: token based replay {'perc_fit_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0, 'percentage_of_fitting_traces': 100.0}
+fitness: alignments {'percFitTraces': 100.0, 'averageFitness': 1.0, 'percentage_of_fitting_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 0.9999301332867023}
+precision: token based replay 0.27187978216902076
+precision: alignments 0.27187978216902076
+generalization 0.9853465278964992
+simplicity 0.48571428571428577
+Input is ok.
+Petri Net is a workflow net.
+Every place is covered by s-components.
+There are no dead tasks.
+All tasks are live.
+is_sound True
+==============================
+==============================
+lrm-order-to-cash
+------------------------------
+Return
+------------------------------
+#places 4
+#transitions 3
+#arcs 6
+fitness: token based replay {'perc_fit_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0, 'percentage_of_fitting_traces': 100.0}
+fitness: alignments {'percFitTraces': 100.0, 'averageFitness': 1.0, 'percentage_of_fitting_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0}
+precision: token based replay 1.0
+precision: alignments 1.0
+generalization 0.9014670721835707
+simplicity 1.0
+Input is ok.
+Petri Net is a workflow net.
+Every place is covered by s-components.
+There are no dead tasks.
+All tasks are live.
+is_sound True
+------------------------------
+Order
+------------------------------
+#places 13
+#transitions 15
+#arcs 30
+fitness: token based replay {'perc_fit_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0, 'percentage_of_fitting_traces': 100.0}
+fitness: alignments {'percFitTraces': 100.0, 'averageFitness': 1.0, 'percentage_of_fitting_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 0.9999872750389093}
+precision: token based replay 1.0
+precision: alignments 1.0
+generalization 0.9666819870154119
+simplicity 0.875
+Input is ok.
+Petri Net is a workflow net.
+Every place is covered by s-components.
+There are no dead tasks.
+All tasks are live.
+is_sound True
+------------------------------
+Shipment
+------------------------------
+#places 3
+#transitions 2
+#arcs 4
+fitness: token based replay {'perc_fit_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0, 'percentage_of_fitting_traces': 100.0}
+fitness: alignments {'percFitTraces': 100.0, 'averageFitness': 1.0, 'percentage_of_fitting_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0}
+precision: token based replay 1.0
+precision: alignments 1.0
+generalization 0.9764884794713801
+simplicity 1.0
+Input is ok.
+Petri Net is a workflow net.
+Every place is covered by s-components.
+There are no dead tasks.
+All tasks are live.
+is_sound True
+------------------------------
+Payment
+------------------------------
+#places 3
+#transitions 2
+#arcs 4
+fitness: token based replay {'perc_fit_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0, 'percentage_of_fitting_traces': 100.0}
+fitness: alignments {'percFitTraces': 100.0, 'averageFitness': 1.0, 'percentage_of_fitting_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0}
+precision: token based replay 1.0
+precision: alignments 1.0
+generalization 0.9738735027863418
+simplicity 1.0
+Input is ok.
+Petri Net is a workflow net.
+Every place is covered by s-components.
+There are no dead tasks.
+All tasks are live.
+is_sound True
+------------------------------
+Product
+------------------------------
+#places 4
+#transitions 6
+#arcs 12
+fitness: token based replay {'perc_fit_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0, 'percentage_of_fitting_traces': 100.0}
+fitness: alignments {'percFitTraces': 100.0, 'averageFitness': 1.0, 'percentage_of_fitting_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 0.9999000007038734}
+precision: token based replay 0.33333333333333337
+precision: alignments 0.33333333333333337
+generalization 0.976245552670161
+simplicity 0.7142857142857143
+Input is ok.
+Petri Net is a workflow net.
+Every place is covered by s-components.
+There are no dead tasks.
+All tasks are live.
+is_sound True
+------------------------------
+CreditNote
+------------------------------
+#places 2
+#transitions 1
+#arcs 2
+fitness: token based replay {'perc_fit_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0, 'percentage_of_fitting_traces': 100.0}
+fitness: alignments {'percFitTraces': 100.0, 'averageFitness': 1.0, 'percentage_of_fitting_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0}
+precision: token based replay 1.0
+precision: alignments 1.0
+generalization 0.9014670721835707
+simplicity 1.0
+Input is ok.
+Petri Net is a workflow net.
+Every place is covered by s-components.
+There are no dead tasks.
+All tasks are live.
+is_sound True
+------------------------------
+Invoice
+------------------------------
+#places 5
+#transitions 6
+#arcs 12
+fitness: token based replay {'perc_fit_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0, 'percentage_of_fitting_traces': 100.0}
+fitness: alignments {'percFitTraces': 100.0, 'averageFitness': 1.0, 'percentage_of_fitting_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0}
+precision: token based replay 1.0
+precision: alignments 1.0
+generalization 0.9580362768788027
+simplicity 0.8461538461538463
+Input is ok.
+Petri Net is a workflow net.
+Every place is covered by s-components.
+There are no dead tasks.
+All tasks are live.
+is_sound True
+------------------------------
+Dispute
+------------------------------
+#places 2
+#transitions 1
+#arcs 2
+fitness: token based replay {'perc_fit_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0, 'percentage_of_fitting_traces': 100.0}
+fitness: alignments {'percFitTraces': 100.0, 'averageFitness': 1.0, 'percentage_of_fitting_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0}
+precision: token based replay 1.0
+precision: alignments 1.0
+generalization 0.9241901956421097
+simplicity 1.0
+Input is ok.
+Petri Net is a workflow net.
+Every place is covered by s-components.
+There are no dead tasks.
+All tasks are live.
+is_sound True
+------------------------------
+Customer
+------------------------------
+#places 4
+#transitions 11
+#arcs 22
+fitness: token based replay {'perc_fit_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0, 'percentage_of_fitting_traces': 100.0}
+fitness: alignments {'percFitTraces': 100.0, 'averageFitness': 1.0, 'percentage_of_fitting_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 0.9999000018788058}
+precision: token based replay 0.20683442344961245
+precision: alignments 0.20683442344961245
+generalization 0.9549886864752379
+simplicity 0.5172413793103449
+Input is ok.
+Petri Net is a workflow net.
+Every place is covered by s-components.
+There are no dead tasks.
+All tasks are live.
+is_sound True
+==============================
+==============================
+lrm-procure-to-pay
+------------------------------
+Purchase Requisition
+------------------------------
+#places 10
+#transitions 12
+#arcs 26
+fitness: token based replay {'perc_fit_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0, 'percentage_of_fitting_traces': 100.0}
+fitness: alignments {'percFitTraces': 100.0, 'averageFitness': 1.0, 'percentage_of_fitting_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 0.9999158383247957}
+precision: token based replay 0.9963358120487121
+precision: alignments 0.9963358120487121
+generalization 0.9554632042347746
+simplicity 0.7333333333333333
+Input is ok.
+Petri Net is a workflow net.
+Every place is covered by s-components.
+There are no dead tasks.
+All tasks are live.
+is_sound True
+------------------------------
+Payment
+------------------------------
+#places 4
+#transitions 4
+#arcs 8
+fitness: token based replay {'perc_fit_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0, 'percentage_of_fitting_traces': 100.0}
+fitness: alignments {'percFitTraces': 100.0, 'averageFitness': 1.0, 'percentage_of_fitting_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 0.9999000097543131}
+precision: token based replay 1.0
+precision: alignments 1.0
+generalization 0.9364623494413866
+simplicity 1.0
+Input is ok.
+Petri Net is a workflow net.
+Every place is covered by s-components.
+There are no dead tasks.
+All tasks are live.
+is_sound True
+------------------------------
+Supplier
+------------------------------
+#places 6
+#transitions 7
+#arcs 14
+fitness: token based replay {'perc_fit_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0, 'percentage_of_fitting_traces': 100.0}
+fitness: alignments {'percFitTraces': 100.0, 'averageFitness': 1.0, 'percentage_of_fitting_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 0.9999026323476393}
+precision: token based replay 0.8325925925925926
+precision: alignments 0.8325925925925926
+generalization 0.9200671186520574
+simplicity 0.8666666666666667
+Input is ok.
+Petri Net is a workflow net.
+Every place is covered by s-components.
+There are no dead tasks.
+All tasks are live.
+is_sound True
+------------------------------
+Purchase Order
+------------------------------
+#places 6
+#transitions 13
+#arcs 26
+fitness: token based replay {'perc_fit_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0, 'percentage_of_fitting_traces': 100.0}
+fitness: alignments {'percFitTraces': 100.0, 'averageFitness': 1.0, 'percentage_of_fitting_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 0.9999121880838809}
+precision: token based replay 0.3530246913580247
+precision: alignments 0.3530246913580247
+generalization 0.9596228336105265
+simplicity 0.5757575757575757
+Input is ok.
+Petri Net is a workflow net.
+Every place is covered by s-components.
+There are no dead tasks.
+All tasks are live.
+is_sound True
+------------------------------
+Invoice
+------------------------------
+#places 4
+#transitions 7
+#arcs 14
+fitness: token based replay {'perc_fit_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0, 'percentage_of_fitting_traces': 100.0}
+fitness: alignments {'percFitTraces': 100.0, 'averageFitness': 1.0, 'percentage_of_fitting_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 0.9999000048227016}
+precision: token based replay 0.49129629629629634
+precision: alignments 0.49129629629629634
+generalization 0.956133730475988
+simplicity 0.6470588235294118
+Input is ok.
+Petri Net is a workflow net.
+Every place is covered by s-components.
+There are no dead tasks.
+All tasks are live.
+is_sound True
+------------------------------
+Goods Receipt
+------------------------------
+#places 4
+#transitions 6
+#arcs 12
+fitness: token based replay {'perc_fit_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0, 'percentage_of_fitting_traces': 100.0}
+fitness: alignments {'percFitTraces': 100.0, 'averageFitness': 1.0, 'percentage_of_fitting_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 0.9999000064555652}
+precision: token based replay 0.664074074074074
+precision: alignments 0.664074074074074
+generalization 0.9528312744442993
+simplicity 0.7142857142857143
+Input is ok.
+Petri Net is a workflow net.
+Every place is covered by s-components.
+There are no dead tasks.
+All tasks are live.
+is_sound True
+==============================
+==============================
+lrm-hiring
+------------------------------
+HiringManager
+------------------------------
+#places 6
+#transitions 9
+#arcs 18
+fitness: token based replay {'perc_fit_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0, 'percentage_of_fitting_traces': 100.0}
+fitness: alignments {'percFitTraces': 100.0, 'averageFitness': 1.0, 'percentage_of_fitting_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 0.9999012228561509}
+precision: token based replay 0.352516501650165
+precision: alignments 0.352516501650165
+generalization 0.8801693994975012
+simplicity 0.7142857142857143
+Input is ok.
+Petri Net is a workflow net.
+Every place is covered by s-components.
+There are no dead tasks.
+All tasks are live.
+is_sound True
+------------------------------
+Interviewer
+------------------------------
+#places 4
+#transitions 5
+#arcs 10
+fitness: token based replay {'perc_fit_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0, 'percentage_of_fitting_traces': 100.0}
+fitness: alignments {'percFitTraces': 100.0, 'averageFitness': 1.0, 'percentage_of_fitting_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 0.9999000003586788}
+precision: token based replay 0.5
+precision: alignments 0.5
+generalization 0.928763062945213
+simplicity 0.8181818181818181
+Input is ok.
+Petri Net is a workflow net.
+Every place is covered by s-components.
+There are no dead tasks.
+All tasks are live.
+is_sound True
+------------------------------
+Assessment
+------------------------------
+#places 4
+#transitions 6
+#arcs 12
+fitness: token based replay {'perc_fit_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0, 'percentage_of_fitting_traces': 100.0}
+fitness: alignments {'percFitTraces': 100.0, 'averageFitness': 1.0, 'percentage_of_fitting_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 0.9999000035409766}
+precision: token based replay 0.33333333333333337
+precision: alignments 0.33333333333333337
+generalization 0.9660892133288342
+simplicity 0.7142857142857143
+Input is ok.
+Petri Net is a workflow net.
+Every place is covered by s-components.
+There are no dead tasks.
+All tasks are live.
+is_sound True
+------------------------------
+Candidate
+------------------------------
+#places 20
+#transitions 31
+#arcs 62
+fitness: token based replay {'perc_fit_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0, 'percentage_of_fitting_traces': 100.0}
+fitness: alignments {'percFitTraces': 100.0, 'averageFitness': 1.0, 'percentage_of_fitting_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 0.9999187569905301}
+precision: token based replay 0.21999855501770105
+precision: alignments 0.21999855501770105
+generalization 0.9492149721000995
+simplicity 0.6986301369863015
+Input is ok.
+Petri Net is a workflow net.
+Every place is covered by s-components.
+There are no dead tasks.
+All tasks are live.
+is_sound True
+------------------------------
+JobRequisition
+------------------------------
+#places 6
+#transitions 6
+#arcs 12
+fitness: token based replay {'perc_fit_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0, 'percentage_of_fitting_traces': 100.0}
+fitness: alignments {'percFitTraces': 100.0, 'averageFitness': 1.0, 'percentage_of_fitting_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 0.9999189191380564}
+precision: token based replay 1.0
+precision: alignments 1.0
+generalization 0.9271955079331315
+simplicity 1.0
+Input is ok.
+Petri Net is a workflow net.
+Every place is covered by s-components.
+There are no dead tasks.
+All tasks are live.
+is_sound True
+------------------------------
+Recruiter
+------------------------------
+#places 6
+#transitions 9
+#arcs 18
+fitness: token based replay {'perc_fit_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0, 'percentage_of_fitting_traces': 100.0}
+fitness: alignments {'percFitTraces': 100.0, 'averageFitness': 1.0, 'percentage_of_fitting_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 0.9999001483683706}
+precision: token based replay 0.33414007705225723
+precision: alignments 0.33414007705225723
+generalization 0.863150553908799
+simplicity 0.7142857142857143
+Input is ok.
+Petri Net is a workflow net.
+Every place is covered by s-components.
+There are no dead tasks.
+All tasks are live.
+is_sound True
+==============================
+==============================
+lrm-hospital-patient
+------------------------------
+Patient
+------------------------------
+#places 10
+#transitions 11
+#arcs 22
+fitness: token based replay {'perc_fit_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0, 'percentage_of_fitting_traces': 100.0}
+fitness: alignments {'percFitTraces': 100.0, 'averageFitness': 1.0, 'percentage_of_fitting_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 0.9999882761221127}
+precision: token based replay 0.9785470828042505
+precision: alignments 0.9785470828042505
+generalization 0.9711851449710442
+simplicity 0.9130434782608695
+Input is ok.
+Petri Net is a workflow net.
+Every place is covered by s-components.
+There are no dead tasks.
+All tasks are live.
+is_sound True
+------------------------------
+InsuranceCompany
+------------------------------
+#places 4
+#transitions 4
+#arcs 8
+fitness: token based replay {'perc_fit_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0, 'percentage_of_fitting_traces': 100.0}
+fitness: alignments {'percFitTraces': 100.0, 'averageFitness': 1.0, 'percentage_of_fitting_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 0.9999000000995024}
+precision: token based replay 1.0
+precision: alignments 1.0
+generalization 0.8306917490520538
+simplicity 1.0
+Input is ok.
+Petri Net is a workflow net.
+Every place is covered by s-components.
+There are no dead tasks.
+All tasks are live.
+is_sound True
+------------------------------
+Nurse
+------------------------------
+#places 4
+#transitions 5
+#arcs 10
+fitness: token based replay {'perc_fit_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0, 'percentage_of_fitting_traces': 100.0}
+fitness: alignments {'percFitTraces': 100.0, 'averageFitness': 1.0, 'percentage_of_fitting_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 0.9999000018140157}
+precision: token based replay 0.5
+precision: alignments 0.5
+generalization 0.9676978106503318
+simplicity 0.8181818181818181
+Input is ok.
+Petri Net is a workflow net.
+Every place is covered by s-components.
+There are no dead tasks.
+All tasks are live.
+is_sound True
+------------------------------
+Bed
+------------------------------
+#places 4
+#transitions 4
+#arcs 8
+fitness: token based replay {'perc_fit_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0, 'percentage_of_fitting_traces': 100.0}
+fitness: alignments {'percFitTraces': 100.0, 'averageFitness': 1.0, 'percentage_of_fitting_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 0.9999000045378691}
+precision: token based replay 1.0
+precision: alignments 1.0
+generalization 0.9671218974336955
+simplicity 1.0
+Input is ok.
+Petri Net is a workflow net.
+Every place is covered by s-components.
+There are no dead tasks.
+All tasks are live.
+is_sound True
+------------------------------
+Room
+------------------------------
+#places 4
+#transitions 4
+#arcs 8
+fitness: token based replay {'perc_fit_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0, 'percentage_of_fitting_traces': 100.0}
+fitness: alignments {'percFitTraces': 100.0, 'averageFitness': 1.0, 'percentage_of_fitting_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 0.9999000033262754}
+precision: token based replay 1.0
+precision: alignments 1.0
+generalization 0.9631304735501118
+simplicity 1.0
+Input is ok.
+Petri Net is a workflow net.
+Every place is covered by s-components.
+There are no dead tasks.
+All tasks are live.
+is_sound True
+------------------------------
+Physician
+------------------------------
+#places 8
+#transitions 9
+#arcs 20
+fitness: token based replay {'perc_fit_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0, 'percentage_of_fitting_traces': 100.0}
+fitness: alignments {'percFitTraces': 100.0, 'averageFitness': 1.0, 'percentage_of_fitting_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 0.9998958707657485}
+precision: token based replay 0.7240413614821197
+precision: alignments 0.7240413614821197
+generalization 0.8866616570198431
+simplicity 0.7391304347826086
+Input is ok.
+Petri Net is a workflow net.
+Every place is covered by s-components.
+There are no dead tasks.
+All tasks are live.
+is_sound True
+------------------------------
+DiagnosticEquipment
+------------------------------
+#places 4
+#transitions 4
+#arcs 8
+fitness: token based replay {'perc_fit_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0, 'percentage_of_fitting_traces': 100.0}
+fitness: alignments {'percFitTraces': 100.0, 'averageFitness': 1.0, 'percentage_of_fitting_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 0.9999000046041046}
+precision: token based replay 1.0
+precision: alignments 1.0
+generalization 0.9183486577207017
+simplicity 1.0
+Input is ok.
+Petri Net is a workflow net.
+Every place is covered by s-components.
+There are no dead tasks.
+All tasks are live.
+is_sound True
+------------------------------
+LabTechnician
+------------------------------
+#places 4
+#transitions 4
+#arcs 8
+fitness: token based replay {'perc_fit_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0, 'percentage_of_fitting_traces': 100.0}
+fitness: alignments {'percFitTraces': 100.0, 'averageFitness': 1.0, 'percentage_of_fitting_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 0.999900004640933}
+precision: token based replay 1.0
+precision: alignments 1.0
+generalization 0.9185752248191439
+simplicity 1.0
+Input is ok.
+Petri Net is a workflow net.
+Every place is covered by s-components.
+There are no dead tasks.
+All tasks are live.
+is_sound True
+==============================
+
+replaying log with TBR, completed traces :: 100%|████████████████████████████| 12/12 [00:00<00:00, 2883.18it/s]
+aligning log, completed variants :: 100%|█████████████████████████████████████| 12/12 [00:00<00:00, 746.51it/s]
+replaying log with TBR, completed traces :: 100%|████████████████████████████| 12/12 [00:00<00:00, 3687.84it/s]
+replaying log with TBR, completed traces :: 100%|████████████████████████████| 12/12 [00:00<00:00, 3556.50it/s]
+replaying log with TBR, completed traces :: 100%|████████████████████████████| 12/12 [00:00<00:00, 3468.28it/s]
+replaying log with TBR, completed traces :: 100%|████████████████████████████████| 6/6 [00:00<00:00, 13.68it/s]
+aligning log, completed variants :: 100%|████████████████████████████████████████| 6/6 [00:16<00:00,  2.77s/it]
+replaying log with TBR, completed traces :: 100%|████████████████████████| 12420/12420 [06:56<00:00, 29.81it/s]
+replaying log with TBR, completed traces :: 100%|████████████████████████| 12420/12420 [06:55<00:00, 29.87it/s]
+replaying log with TBR, completed traces :: 100%|████████████████████████████████| 6/6 [00:00<00:00, 12.93it/s]
+replaying log with TBR, completed traces :: 100%|██████████████████████████████| 2/2 [00:00<00:00, 1385.17it/s]
+aligning log, completed variants :: 100%|██████████████████████████████████████| 2/2 [00:00<00:00, 2049.50it/s]
+replaying log with TBR, completed traces :: 100%|██████████████████████████████| 2/2 [00:00<00:00, 1343.90it/s]
+replaying log with TBR, completed traces :: 100%|████████████████████████████████| 3/3 [00:00<00:00,  9.48it/s]
+aligning log, completed variants :: 100%|████████████████████████████████████████| 3/3 [00:11<00:00,  4.00s/it]
+replaying log with TBR, completed traces :: 100%|██████████████████████████| 7717/7717 [05:53<00:00, 21.83it/s]
+replaying log with TBR, completed traces :: 100%|██████████████████████████| 7717/7717 [05:49<00:00, 22.05it/s]
+replaying log with TBR, completed traces :: 100%|████████████████████████████████| 3/3 [00:00<00:00,  8.06it/s]
+replaying log with TBR, completed traces :: 100%|████████████████████████████| 29/29 [00:00<00:00, 2245.84it/s]
+aligning log, completed variants :: 100%|█████████████████████████████████████| 29/29 [00:00<00:00, 574.05it/s]
+replaying log with TBR, completed traces :: 100%|████████████████████████████| 58/58 [00:00<00:00, 3181.37it/s]
+replaying log with TBR, completed traces :: 100%|████████████████████████████| 58/58 [00:00<00:00, 3196.67it/s]
+replaying log with TBR, completed traces :: 100%|████████████████████████████| 29/29 [00:00<00:00, 2298.47it/s]
+replaying log with TBR, completed traces :: 100%|████████████████████████████| 78/78 [00:00<00:00, 1866.42it/s]
+aligning log, completed variants :: 100%|█████████████████████████████████████| 78/78 [00:00<00:00, 468.01it/s]
+replaying log with TBR, completed traces :: 100%|██████████████████████████| 628/628 [00:00<00:00, 1961.59it/s]
+replaying log with TBR, completed traces :: 100%|██████████████████████████| 628/628 [00:00<00:00, 2029.76it/s]
+replaying log with TBR, completed traces :: 100%|████████████████████████████| 78/78 [00:00<00:00, 1880.06it/s]
+replaying log with TBR, completed traces :: 100%|██████████████████████████████| 3/3 [00:00<00:00, 1274.99it/s]
+aligning log, completed variants :: 100%|██████████████████████████████████████| 3/3 [00:00<00:00, 1564.26it/s]
+replaying log with TBR, completed traces :: 100%|█████████████████████████████| 3/3 [00:00<00:00, 12932.08it/s]
+replaying log with TBR, completed traces :: 100%|██████████████████████████████| 3/3 [00:00<00:00, 8774.69it/s]
+replaying log with TBR, completed traces :: 100%|██████████████████████████████| 3/3 [00:00<00:00, 1264.11it/s]
+replaying log with TBR, completed traces :: 100%|████████████████████████████| 40/40 [00:00<00:00, 3863.23it/s]
+aligning log, completed variants :: 100%|████████████████████████████████████| 40/40 [00:00<00:00, 1264.91it/s]
+replaying log with TBR, completed traces :: 100%|████████████████████████████| 34/34 [00:00<00:00, 6204.05it/s]
+replaying log with TBR, completed traces :: 100%|████████████████████████████| 34/34 [00:00<00:00, 6824.58it/s]
+replaying log with TBR, completed traces :: 100%|████████████████████████████| 40/40 [00:00<00:00, 3644.29it/s]
+replaying log with TBR, completed traces :: 100%|████████████████████████████| 82/82 [00:00<00:00, 3829.82it/s]
+aligning log, completed variants :: 100%|████████████████████████████████████| 82/82 [00:00<00:00, 1136.22it/s]
+replaying log with TBR, completed traces :: 100%|████████████████████████████| 84/84 [00:00<00:00, 5083.20it/s]
+replaying log with TBR, completed traces :: 100%|████████████████████████████| 84/84 [00:00<00:00, 5233.30it/s]
+replaying log with TBR, completed traces :: 100%|████████████████████████████| 82/82 [00:00<00:00, 3905.67it/s]
+replaying log with TBR, completed traces :: 100%|████████████████████████████| 41/41 [00:00<00:00, 3464.34it/s]
+aligning log, completed variants :: 100%|████████████████████████████████████| 41/41 [00:00<00:00, 1018.86it/s]
+replaying log with TBR, completed traces :: 100%|████████████████████████████| 69/69 [00:00<00:00, 4470.92it/s]
+replaying log with TBR, completed traces :: 100%|████████████████████████████| 69/69 [00:00<00:00, 4788.34it/s]
+replaying log with TBR, completed traces :: 100%|████████████████████████████| 41/41 [00:00<00:00, 3416.71it/s]
+replaying log with TBR, completed traces :: 100%|██████████████████████████████| 5/5 [00:00<00:00, 1788.92it/s]
+aligning log, completed variants :: 100%|██████████████████████████████████████| 5/5 [00:00<00:00, 1906.85it/s]
+replaying log with TBR, completed traces :: 100%|██████████████████████████████| 4/4 [00:00<00:00, 5441.85it/s]
+replaying log with TBR, completed traces :: 100%|██████████████████████████████| 4/4 [00:00<00:00, 9300.01it/s]
+replaying log with TBR, completed traces :: 100%|██████████████████████████████| 5/5 [00:00<00:00, 1885.42it/s]
+replaying log with TBR, completed traces :: 100%|███████████████████████████████| 2/2 [00:00<00:00, 474.71it/s]
+aligning log, completed variants :: 100%|██████████████████████████████████████| 2/2 [00:00<00:00, 1937.77it/s]
+replaying log with TBR, completed traces :: 100%|███████████████████████████████| 2/2 [00:00<00:00, 478.83it/s]
+replaying log with TBR, completed traces :: 100%|████████████████████████████| 18/18 [00:00<00:00, 3352.46it/s]
+aligning log, completed variants :: 100%|████████████████████████████████████| 18/18 [00:00<00:00, 1168.53it/s]
+replaying log with TBR, completed traces :: 100%|████████████████████████████| 42/42 [00:00<00:00, 5309.73it/s]
+replaying log with TBR, completed traces :: 100%|████████████████████████████| 42/42 [00:00<00:00, 6164.64it/s]
+replaying log with TBR, completed traces :: 100%|████████████████████████████| 18/18 [00:00<00:00, 3371.48it/s]
+replaying log with TBR, completed traces :: 100%|██████████████████████████████| 18/18 [00:00<00:00, 25.80it/s]
+aligning log, completed variants :: 100%|██████████████████████████████████████| 18/18 [00:39<00:00,  2.19s/it]
+replaying log with TBR, completed traces :: 100%|████████████████████████| 15955/15955 [08:21<00:00, 31.80it/s]
+replaying log with TBR, completed traces :: 100%|████████████████████████| 15955/15955 [08:24<00:00, 31.60it/s]
+replaying log with TBR, completed traces :: 100%|██████████████████████████████| 18/18 [00:00<00:00, 25.02it/s]
+replaying log with TBR, completed traces :: 100%|██████████████████████████████| 20/20 [00:02<00:00,  8.52it/s]
+aligning log, completed variants :: 100%|██████████████████████████████████████| 20/20 [01:36<00:00,  4.81s/it]
+replaying log with TBR, completed traces :: 100%|████████████████████████| 54621/54621 [51:31<00:00, 17.67it/s]
+replaying log with TBR, completed traces :: 100%|████████████████████████| 54621/54621 [51:59<00:00, 17.51it/s]
+replaying log with TBR, completed traces :: 100%|██████████████████████████████| 20/20 [00:02<00:00,  8.37it/s]
+replaying log with TBR, completed traces :: 100%|██████████████████████████████| 7/7 [00:00<00:00, 1829.52it/s]
+aligning log, completed variants :: 100%|██████████████████████████████████████| 7/7 [00:00<00:00, 1211.08it/s]
+replaying log with TBR, completed traces :: 100%|██████████████████████████████| 9/9 [00:00<00:00, 6802.80it/s]
+replaying log with TBR, completed traces :: 100%|██████████████████████████████| 9/9 [00:00<00:00, 6823.70it/s]
+replaying log with TBR, completed traces :: 100%|██████████████████████████████| 7/7 [00:00<00:00, 1919.97it/s]
+replaying log with TBR, completed traces :: 100%|█████████████████████████████| 15/15 [00:00<00:00, 168.67it/s]
+aligning log, completed variants :: 100%|██████████████████████████████████████| 15/15 [00:00<00:00, 17.83it/s]
+replaying log with TBR, completed traces :: 100%|█████████████████████████| 3819/3819 [00:11<00:00, 324.94it/s]
+replaying log with TBR, completed traces :: 100%|█████████████████████████| 3819/3819 [00:11<00:00, 324.47it/s]
+replaying log with TBR, completed traces :: 100%|█████████████████████████████| 15/15 [00:00<00:00, 166.12it/s]
+replaying log with TBR, completed traces :: 100%|███████████████████████████████| 5/5 [00:00<00:00, 987.36it/s]
+aligning log, completed variants :: 100%|██████████████████████████████████████| 5/5 [00:00<00:00, 1402.96it/s]
+replaying log with TBR, completed traces :: 100%|██████████████████████████████| 6/6 [00:00<00:00, 8621.39it/s]
+replaying log with TBR, completed traces :: 100%|██████████████████████████████| 6/6 [00:00<00:00, 9007.10it/s]
+replaying log with TBR, completed traces :: 100%|███████████████████████████████| 5/5 [00:00<00:00, 978.97it/s]
+replaying log with TBR, completed traces :: 100%|██████████████████████████| 286/286 [00:00<00:00, 3115.17it/s]
+aligning log, completed variants :: 100%|███████████████████████████████████| 286/286 [00:00<00:00, 720.95it/s]
+replaying log with TBR, completed traces :: 100%|██████████████████████████| 550/550 [00:00<00:00, 3713.13it/s]
+replaying log with TBR, completed traces :: 100%|██████████████████████████| 550/550 [00:00<00:00, 3744.63it/s]
+replaying log with TBR, completed traces :: 100%|██████████████████████████| 286/286 [00:00<00:00, 3062.92it/s]
+replaying log with TBR, completed traces :: 100%|█████████████████████████████| 2/2 [00:00<00:00, 15857.48it/s]
+replaying log with TBR, completed traces :: 100%|█████████████████████████████| 2/2 [00:00<00:00, 18396.07it/s]
+replaying log with TBR, completed traces :: 100%|██████████████████████████████| 8/8 [00:00<00:00, 1370.13it/s]
+aligning log, completed variants :: 100%|███████████████████████████████████████| 8/8 [00:00<00:00, 992.29it/s]
+replaying log with TBR, completed traces :: 100%|████████████████████████████| 13/13 [00:00<00:00, 8436.63it/s]
+replaying log with TBR, completed traces :: 100%|████████████████████████████| 13/13 [00:00<00:00, 8397.65it/s]
+replaying log with TBR, completed traces :: 100%|██████████████████████████████| 8/8 [00:00<00:00, 1324.69it/s]
+replaying log with TBR, completed traces :: 100%|████████████████████████████| 19/19 [00:00<00:00, 1178.80it/s]
+aligning log, completed variants :: 100%|█████████████████████████████████████| 19/19 [00:00<00:00, 285.46it/s]
+replaying log with TBR, completed traces :: 100%|████████████████████████████| 74/74 [00:00<00:00, 1155.95it/s]
+replaying log with TBR, completed traces :: 100%|████████████████████████████| 74/74 [00:00<00:00, 1171.84it/s]
+replaying log with TBR, completed traces :: 100%|████████████████████████████| 19/19 [00:00<00:00, 1173.91it/s]
+replaying log with TBR, completed traces :: 100%|███████████████████████████████| 3/3 [00:00<00:00, 636.82it/s]
+aligning log, completed variants :: 100%|██████████████████████████████████████| 3/3 [00:00<00:00, 1643.75it/s]
+replaying log with TBR, completed traces :: 100%|█████████████████████████████| 3/3 [00:00<00:00, 13873.11it/s]
+replaying log with TBR, completed traces :: 100%|█████████████████████████████| 3/3 [00:00<00:00, 15307.68it/s]
+replaying log with TBR, completed traces :: 100%|███████████████████████████████| 3/3 [00:00<00:00, 690.91it/s]
+replaying log with TBR, completed traces :: 100%|██████████████████████████| 172/172 [00:00<00:00, 2485.88it/s]
+aligning log, completed variants :: 100%|███████████████████████████████████| 172/172 [00:00<00:00, 532.78it/s]
+replaying log with TBR, completed traces :: 100%|██████████████████████████| 490/490 [00:00<00:00, 2184.04it/s]
+replaying log with TBR, completed traces :: 100%|██████████████████████████| 490/490 [00:00<00:00, 2224.57it/s]
+replaying log with TBR, completed traces :: 100%|██████████████████████████| 172/172 [00:00<00:00, 2379.13it/s]
+replaying log with TBR, completed traces :: 100%|████████████████████████████| 86/86 [00:00<00:00, 5269.61it/s]
+aligning log, completed variants :: 100%|█████████████████████████████████████| 86/86 [00:00<00:00, 929.22it/s]
+replaying log with TBR, completed traces :: 100%|████████████████████████████| 86/86 [00:00<00:00, 5433.12it/s]
+replaying log with TBR, completed traces :: 100%|████████████████████████████| 86/86 [00:00<00:00, 5446.82it/s]
+replaying log with TBR, completed traces :: 100%|████████████████████████████| 86/86 [00:00<00:00, 5211.22it/s]
+replaying log with TBR, completed traces :: 100%|██████████████████████████████| 3/3 [00:00<00:00, 1292.54it/s]
+aligning log, completed variants :: 100%|██████████████████████████████████████| 3/3 [00:00<00:00, 1947.82it/s]
+replaying log with TBR, completed traces :: 100%|█████████████████████████████| 2/2 [00:00<00:00, 10591.68it/s]
+replaying log with TBR, completed traces :: 100%|██████████████████████████████| 2/2 [00:00<00:00, 7244.05it/s]
+replaying log with TBR, completed traces :: 100%|██████████████████████████████| 3/3 [00:00<00:00, 1258.92it/s]
+replaying log with TBR, completed traces :: 100%|████████████████████████████| 19/19 [00:00<00:00, 1107.81it/s]
+aligning log, completed variants :: 100%|█████████████████████████████████████| 19/19 [00:00<00:00, 275.22it/s]
+replaying log with TBR, completed traces :: 100%|██████████████████████████| 372/372 [00:00<00:00, 1399.86it/s]
+replaying log with TBR, completed traces :: 100%|██████████████████████████| 372/372 [00:00<00:00, 1391.11it/s]
+replaying log with TBR, completed traces :: 100%|████████████████████████████| 19/19 [00:00<00:00, 1119.16it/s]
+replaying log with TBR, completed traces :: 100%|████████████████████████████| 26/26 [00:00<00:00, 2617.54it/s]
+aligning log, completed variants :: 100%|█████████████████████████████████████| 26/26 [00:00<00:00, 705.45it/s]
+replaying log with TBR, completed traces :: 100%|██████████████████████████| 148/148 [00:00<00:00, 3980.64it/s]
+replaying log with TBR, completed traces :: 100%|██████████████████████████| 148/148 [00:00<00:00, 3967.16it/s]
+replaying log with TBR, completed traces :: 100%|████████████████████████████| 26/26 [00:00<00:00, 2547.76it/s]
+replaying log with TBR, completed traces :: 100%|██████████████████████████████| 9/9 [00:00<00:00, 2589.79it/s]
+aligning log, completed variants :: 100%|██████████████████████████████████████| 9/9 [00:00<00:00, 1242.23it/s]
+replaying log with TBR, completed traces :: 100%|████████████████████████████| 25/25 [00:00<00:00, 6316.34it/s]
+replaying log with TBR, completed traces :: 100%|████████████████████████████| 25/25 [00:00<00:00, 6740.65it/s]
+replaying log with TBR, completed traces :: 100%|██████████████████████████████| 9/9 [00:00<00:00, 2669.83it/s]
+replaying log with TBR, completed traces :: 100%|██████████████████████████████| 8/8 [00:00<00:00, 2720.04it/s]
+aligning log, completed variants :: 100%|██████████████████████████████████████| 8/8 [00:00<00:00, 1632.98it/s]
+replaying log with TBR, completed traces :: 100%|████████████████████████████| 11/11 [00:00<00:00, 8058.92it/s]
+replaying log with TBR, completed traces :: 100%|████████████████████████████| 11/11 [00:00<00:00, 8077.27it/s]
+replaying log with TBR, completed traces :: 100%|██████████████████████████████| 8/8 [00:00<00:00, 2788.53it/s]
+replaying log with TBR, completed traces :: 100%|█████████████████████████████| 20/20 [00:00<00:00, 542.93it/s]
+aligning log, completed variants :: 100%|█████████████████████████████████████| 20/20 [00:00<00:00, 106.73it/s]
+replaying log with TBR, completed traces :: 100%|█████████████████████████| 1450/1450 [00:01<00:00, 848.96it/s]
+replaying log with TBR, completed traces :: 100%|█████████████████████████| 1450/1450 [00:01<00:00, 847.92it/s]
+replaying log with TBR, completed traces :: 100%|█████████████████████████████| 20/20 [00:00<00:00, 539.84it/s]
+replaying log with TBR, completed traces :: 100%|█████████████████████████████| 18/18 [00:00<00:00, 812.05it/s]
+aligning log, completed variants :: 100%|█████████████████████████████████████| 18/18 [00:00<00:00, 182.37it/s]
+replaying log with TBR, completed traces :: 100%|████████████████████████████| 79/79 [00:00<00:00, 1103.23it/s]
+replaying log with TBR, completed traces :: 100%|████████████████████████████| 79/79 [00:00<00:00, 1131.64it/s]
+replaying log with TBR, completed traces :: 100%|█████████████████████████████| 18/18 [00:00<00:00, 821.43it/s]
+replaying log with TBR, completed traces :: 100%|██████████████████████████████| 5/5 [00:00<00:00, 1780.72it/s]
+aligning log, completed variants :: 100%|███████████████████████████████████████| 5/5 [00:00<00:00, 933.85it/s]
+replaying log with TBR, completed traces :: 100%|████████████████████████████| 14/14 [00:00<00:00, 4405.45it/s]
+replaying log with TBR, completed traces :: 100%|████████████████████████████| 14/14 [00:00<00:00, 4531.93it/s]
+replaying log with TBR, completed traces :: 100%|██████████████████████████████| 5/5 [00:00<00:00, 1877.65it/s]
+replaying log with TBR, completed traces :: 100%|███████████████████████████████| 7/7 [00:00<00:00, 772.47it/s]
+aligning log, completed variants :: 100%|███████████████████████████████████████| 7/7 [00:00<00:00, 503.20it/s]
+replaying log with TBR, completed traces :: 100%|████████████████████████████| 18/18 [00:00<00:00, 3147.56it/s]
+replaying log with TBR, completed traces :: 100%|████████████████████████████| 18/18 [00:00<00:00, 3179.64it/s]
+replaying log with TBR, completed traces :: 100%|███████████████████████████████| 7/7 [00:00<00:00, 762.28it/s]
+replaying log with TBR, completed traces :: 100%|████████████████████████████| 23/23 [00:00<00:00, 1343.75it/s]
+aligning log, completed variants :: 100%|█████████████████████████████████████| 23/23 [00:00<00:00, 336.25it/s]
+replaying log with TBR, completed traces :: 100%|████████████████████████████| 49/49 [00:00<00:00, 1860.64it/s]
+replaying log with TBR, completed traces :: 100%|████████████████████████████| 49/49 [00:00<00:00, 1876.05it/s]
+replaying log with TBR, completed traces :: 100%|████████████████████████████| 23/23 [00:00<00:00, 1334.82it/s]
+replaying log with TBR, completed traces :: 100%|██████████████████████████████| 10/10 [00:00<00:00, 54.97it/s]
+aligning log, completed variants :: 100%|██████████████████████████████████████| 10/10 [00:03<00:00,  3.28it/s]
+replaying log with TBR, completed traces :: 100%|█████████████████████████| 6610/6610 [01:00<00:00, 108.42it/s]
+replaying log with TBR, completed traces :: 100%|█████████████████████████| 6610/6610 [01:00<00:00, 108.54it/s]
+replaying log with TBR, completed traces :: 100%|██████████████████████████████| 10/10 [00:00<00:00, 54.20it/s]
+replaying log with TBR, completed traces :: 100%|███████████████████████████████| 2/2 [00:00<00:00, 406.42it/s]
+aligning log, completed variants :: 100%|███████████████████████████████████████| 2/2 [00:00<00:00, 938.95it/s]
+replaying log with TBR, completed traces :: 100%|█████████████████████████████| 8/8 [00:00<00:00, 11001.45it/s]
+replaying log with TBR, completed traces :: 100%|█████████████████████████████| 8/8 [00:00<00:00, 10837.99it/s]
+replaying log with TBR, completed traces :: 100%|███████████████████████████████| 2/2 [00:00<00:00, 421.33it/s]
+replaying log with TBR, completed traces :: 100%|███████████████████████████████| 9/9 [00:00<00:00, 233.90it/s]
+aligning log, completed variants :: 100%|████████████████████████████████████████| 9/9 [00:00<00:00, 29.91it/s]
+replaying log with TBR, completed traces :: 100%|███████████████████████████| 215/215 [00:00<00:00, 436.84it/s]
+replaying log with TBR, completed traces :: 100%|███████████████████████████| 215/215 [00:00<00:00, 437.89it/s]
+replaying log with TBR, completed traces :: 100%|███████████████████████████████| 9/9 [00:00<00:00, 236.21it/s]
+replaying log with TBR, completed traces :: 100%|████████████████████████████| 13/13 [00:00<00:00, 2513.53it/s]
+aligning log, completed variants :: 100%|█████████████████████████████████████| 13/13 [00:00<00:00, 763.66it/s]
+replaying log with TBR, completed traces :: 100%|████████████████████████████| 25/25 [00:00<00:00, 3075.81it/s]
+replaying log with TBR, completed traces :: 100%|████████████████████████████| 25/25 [00:00<00:00, 3104.04it/s]
+replaying log with TBR, completed traces :: 100%|████████████████████████████| 13/13 [00:00<00:00, 2500.85it/s]
+replaying log with TBR, completed traces :: 100%|████████████████████████████| 10/10 [00:00<00:00, 3514.88it/s]
+aligning log, completed variants :: 100%|████████████████████████████████████| 10/10 [00:00<00:00, 1610.84it/s]
+replaying log with TBR, completed traces :: 100%|██████████████████████████████| 9/9 [00:00<00:00, 6832.35it/s]
+replaying log with TBR, completed traces :: 100%|██████████████████████████████| 9/9 [00:00<00:00, 6843.50it/s]
+replaying log with TBR, completed traces :: 100%|████████████████████████████| 10/10 [00:00<00:00, 3486.83it/s]
+replaying log with TBR, completed traces :: 100%|████████████████████████████| 12/12 [00:00<00:00, 4156.55it/s]
+aligning log, completed variants :: 100%|████████████████████████████████████| 12/12 [00:00<00:00, 1365.33it/s]
+replaying log with TBR, completed traces :: 100%|████████████████████████████| 11/11 [00:00<00:00, 5453.59it/s]
+replaying log with TBR, completed traces :: 100%|████████████████████████████| 11/11 [00:00<00:00, 5981.76it/s]
+replaying log with TBR, completed traces :: 100%|████████████████████████████| 12/12 [00:00<00:00, 4087.35it/s]
+replaying log with TBR, completed traces :: 100%|██████████████████████████| 100/100 [00:00<00:00, 1668.50it/s]
+aligning log, completed variants :: 100%|███████████████████████████████████| 100/100 [00:00<00:00, 343.04it/s]
+replaying log with TBR, completed traces :: 100%|████████████████████████| 1147/1147 [00:00<00:00, 2021.97it/s]
+replaying log with TBR, completed traces :: 100%|████████████████████████| 1147/1147 [00:00<00:00, 2013.66it/s]
+replaying log with TBR, completed traces :: 100%|██████████████████████████| 100/100 [00:00<00:00, 1667.08it/s]
+replaying log with TBR, completed traces :: 100%|██████████████████████████████| 8/8 [00:00<00:00, 6317.91it/s]
+aligning log, completed variants :: 100%|██████████████████████████████████████| 8/8 [00:00<00:00, 1593.66it/s]
+replaying log with TBR, completed traces :: 100%|██████████████████████████████| 7/7 [00:00<00:00, 7526.31it/s]
+replaying log with TBR, completed traces :: 100%|██████████████████████████████| 7/7 [00:00<00:00, 7948.06it/s]
+replaying log with TBR, completed traces :: 100%|██████████████████████████████| 8/8 [00:00<00:00, 6666.88it/s]
+replaying log with TBR, completed traces :: 100%|██████████████████████████████| 7/7 [00:00<00:00, 6046.15it/s]
+aligning log, completed variants :: 100%|██████████████████████████████████████| 7/7 [00:00<00:00, 1854.83it/s]
+replaying log with TBR, completed traces :: 100%|██████████████████████████████| 6/6 [00:00<00:00, 8275.51it/s]
+replaying log with TBR, completed traces :: 100%|██████████████████████████████| 6/6 [00:00<00:00, 8510.59it/s]
+replaying log with TBR, completed traces :: 100%|██████████████████████████████| 7/7 [00:00<00:00, 6718.56it/s]

@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+  <net id="imdf_net_1751016351.6089768" type="http://www.pnml.org/version-2009/grammar/ptnet">
+    <name>
+      <text>imdf_net_1751016351.6089768</text>
+    </name>
+    <page id="n0">
+      <place id="p_6">
+        <name>
+          <text>p_6</text>
+        </name>
+      </place>
+      <place id="source">
+        <name>
+          <text>source</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="p_5">
+        <name>
+          <text>p_5</text>
+        </name>
+      </place>
+      <place id="sink">
+        <name>
+          <text>sink</text>
+        </name>
+      </place>
+      <transition id="tau_1">
+        <name>
+          <text>tau_1</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="9fd1a641-4d24-4ccd-b94e-565d4d79faf2"/>
+      </transition>
+      <transition id="1c825247-1430-47ec-8997-17290939874e">
+        <name>
+          <text>Bring to Loading Bay</text>
+        </name>
+      </transition>
+      <transition id="skip_6">
+        <name>
+          <text>skip_6</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="a17ce0e9-fb00-4f1f-a4cc-f81a1b1c11ff"/>
+      </transition>
+      <transition id="527a0736-7dec-4112-919a-34a1bc274af2">
+        <name>
+          <text>Load to Vehicle</text>
+        </name>
+      </transition>
+      <transition id="c18db39e-55ee-44c7-9af2-209468f4d724">
+        <name>
+          <text>Place in Stock</text>
+        </name>
+      </transition>
+      <transition id="0fa2802d-b35a-426f-a889-a13eebf3934d">
+        <name>
+          <text>Weigh</text>
+        </name>
+      </transition>
+      <transition id="skip_5">
+        <name>
+          <text>skip_5</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="ae5c46a9-6b98-4635-b064-31eb45444594"/>
+      </transition>
+      <arc id="5561426048" source="p_5" target="527a0736-7dec-4112-919a-34a1bc274af2"/>
+      <arc id="5561418368" source="p_6" target="skip_6"/>
+      <arc id="5561420672" source="skip_5" target="p_5"/>
+      <arc id="5561420432" source="skip_6" target="sink"/>
+      <arc id="5561425568" source="1c825247-1430-47ec-8997-17290939874e" target="p_6"/>
+      <arc id="5561418656" source="p_5" target="c18db39e-55ee-44c7-9af2-209468f4d724"/>
+      <arc id="5561419424" source="0fa2802d-b35a-426f-a889-a13eebf3934d" target="p_6"/>
+      <arc id="5561420576" source="tau_1" target="p_5"/>
+      <arc id="5561419328" source="p_5" target="0fa2802d-b35a-426f-a889-a13eebf3934d"/>
+      <arc id="5561419088" source="527a0736-7dec-4112-919a-34a1bc274af2" target="p_6"/>
+      <arc id="5561418848" source="p_6" target="skip_5"/>
+      <arc id="4792873072" source="source" target="tau_1"/>
+      <arc id="5561419760" source="p_5" target="1c825247-1430-47ec-8997-17290939874e"/>
+      <arc id="5561419376" source="c18db39e-55ee-44c7-9af2-209468f4d724" target="p_6"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

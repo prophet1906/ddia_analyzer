@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+  <net id="imdf_net_1751016559.357601" type="http://www.pnml.org/version-2009/grammar/ptnet">
+    <name>
+      <text>imdf_net_1751016559.357601</text>
+    </name>
+    <page id="n0">
+      <place id="sink">
+        <name>
+          <text>sink</text>
+        </name>
+      </place>
+      <place id="p_6">
+        <name>
+          <text>p_6</text>
+        </name>
+      </place>
+      <place id="source">
+        <name>
+          <text>source</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="p_5">
+        <name>
+          <text>p_5</text>
+        </name>
+      </place>
+      <transition id="tau_1">
+        <name>
+          <text>tau_1</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="9f39d417-e6ee-40d3-8795-700b63ee1ce2"/>
+      </transition>
+      <transition id="24bbc5c7-eb4e-4ad8-bd49-a8f677e3facd">
+        <name>
+          <text>Approve Order</text>
+        </name>
+      </transition>
+      <transition id="ead28979-b7e2-436d-bba0-63b8946d23e7">
+        <name>
+          <text>Receive Customer Order</text>
+        </name>
+      </transition>
+      <transition id="9cd67e4b-8cf1-4cce-b87b-1e3874a109e1">
+        <name>
+          <text>Issue Payment Reminder</text>
+        </name>
+      </transition>
+      <transition id="877a5c24-d998-43f3-9d35-316663032342">
+        <name>
+          <text>Send Invoice to Customer</text>
+        </name>
+      </transition>
+      <transition id="d319d5d6-fbde-4d24-81c7-3d0acdee7b14">
+        <name>
+          <text>Perform Credit Check</text>
+        </name>
+      </transition>
+      <transition id="skip_5">
+        <name>
+          <text>skip_5</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="49caa218-b640-4fe6-b8c8-7e6de3bfeb3e"/>
+      </transition>
+      <transition id="f04c84d4-9307-4b99-9c4e-e23abb5539f3">
+        <name>
+          <text>Process Return Request</text>
+        </name>
+      </transition>
+      <transition id="9d8c2042-796c-4186-91c2-0f84ed3b6f74">
+        <name>
+          <text>Reject Order</text>
+        </name>
+      </transition>
+      <transition id="63e7ab96-502d-4d1f-ad32-3638338dcbe0">
+        <name>
+          <text>Handle Payment Discrepancy</text>
+        </name>
+      </transition>
+      <transition id="skip_6">
+        <name>
+          <text>skip_6</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="dfccdc22-574e-41c3-9ab7-5d7f821d198b"/>
+      </transition>
+      <arc id="5148718848" source="p_5" target="f04c84d4-9307-4b99-9c4e-e23abb5539f3"/>
+      <arc id="5148708096" source="f04c84d4-9307-4b99-9c4e-e23abb5539f3" target="p_6"/>
+      <arc id="5148705312" source="24bbc5c7-eb4e-4ad8-bd49-a8f677e3facd" target="p_6"/>
+      <arc id="5148711840" source="p_5" target="d319d5d6-fbde-4d24-81c7-3d0acdee7b14"/>
+      <arc id="5148712368" source="9cd67e4b-8cf1-4cce-b87b-1e3874a109e1" target="p_6"/>
+      <arc id="5148706992" source="p_6" target="skip_5"/>
+      <arc id="5148713520" source="skip_5" target="p_5"/>
+      <arc id="5148710976" source="9d8c2042-796c-4186-91c2-0f84ed3b6f74" target="p_6"/>
+      <arc id="5148706368" source="p_5" target="9cd67e4b-8cf1-4cce-b87b-1e3874a109e1"/>
+      <arc id="5148717504" source="tau_1" target="p_5"/>
+      <arc id="5148713808" source="p_5" target="877a5c24-d998-43f3-9d35-316663032342"/>
+      <arc id="5148718800" source="skip_6" target="sink"/>
+      <arc id="5148707280" source="p_5" target="24bbc5c7-eb4e-4ad8-bd49-a8f677e3facd"/>
+      <arc id="5148721104" source="p_5" target="ead28979-b7e2-436d-bba0-63b8946d23e7"/>
+      <arc id="5148706896" source="ead28979-b7e2-436d-bba0-63b8946d23e7" target="p_6"/>
+      <arc id="5148707808" source="877a5c24-d998-43f3-9d35-316663032342" target="p_6"/>
+      <arc id="5148708192" source="d319d5d6-fbde-4d24-81c7-3d0acdee7b14" target="p_6"/>
+      <arc id="5148715104" source="p_5" target="63e7ab96-502d-4d1f-ad32-3638338dcbe0"/>
+      <arc id="5148710496" source="63e7ab96-502d-4d1f-ad32-3638338dcbe0" target="p_6"/>
+      <arc id="5148719856" source="source" target="tau_1"/>
+      <arc id="5148711024" source="p_5" target="9d8c2042-796c-4186-91c2-0f84ed3b6f74"/>
+      <arc id="5148713328" source="p_6" target="skip_6"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

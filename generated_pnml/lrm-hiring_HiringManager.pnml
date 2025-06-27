@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+  <net id="imdf_net_1751016568.215266" type="http://www.pnml.org/version-2009/grammar/ptnet">
+    <name>
+      <text>imdf_net_1751016568.215266</text>
+    </name>
+    <page id="n0">
+      <place id="source">
+        <name>
+          <text>source</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="sink">
+        <name>
+          <text>sink</text>
+        </name>
+      </place>
+      <place id="p_6">
+        <name>
+          <text>p_6</text>
+        </name>
+      </place>
+      <place id="p_7">
+        <name>
+          <text>p_7</text>
+        </name>
+      </place>
+      <place id="p_10">
+        <name>
+          <text>p_10</text>
+        </name>
+      </place>
+      <place id="p_9">
+        <name>
+          <text>p_9</text>
+        </name>
+      </place>
+      <transition id="skip_6">
+        <name>
+          <text>skip_6</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="71d9bcd4-c249-4200-b647-ecabc1f8ec3e"/>
+      </transition>
+      <transition id="2ee0082b-4fb3-4a5d-8e85-73f40dd63e17">
+        <name>
+          <text>Prepare Offer Letter</text>
+        </name>
+      </transition>
+      <transition id="748f8f66-328c-46da-8576-214e1c538a7a">
+        <name>
+          <text>Evaluate Interview</text>
+        </name>
+      </transition>
+      <transition id="skip_10">
+        <name>
+          <text>skip_10</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="337ddc21-18b5-4d98-8f26-4eae7d453314"/>
+      </transition>
+      <transition id="tau_1">
+        <name>
+          <text>tau_1</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="901ee93c-a167-4a19-b0c2-aea5d2553904"/>
+      </transition>
+      <transition id="bcacaf41-ed23-4f15-83b2-3fec9800ac03">
+        <name>
+          <text>Create Job Requisition</text>
+        </name>
+      </transition>
+      <transition id="skip_5">
+        <name>
+          <text>skip_5</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="55526406-cb46-4388-801c-a926e5b314d5"/>
+      </transition>
+      <transition id="7243e564-c540-40ee-bdad-36f64fb0c50b">
+        <name>
+          <text>Review Assessment</text>
+        </name>
+      </transition>
+      <transition id="skip_9">
+        <name>
+          <text>skip_9</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="789aa449-21e8-4c75-a812-875d970b3063"/>
+      </transition>
+      <arc id="4792871296" source="p_6" target="bcacaf41-ed23-4f15-83b2-3fec9800ac03"/>
+      <arc id="5308643840" source="2ee0082b-4fb3-4a5d-8e85-73f40dd63e17" target="p_10"/>
+      <arc id="5308640384" source="748f8f66-328c-46da-8576-214e1c538a7a" target="p_10"/>
+      <arc id="5308635392" source="p_10" target="skip_10"/>
+      <arc id="4792867984" source="p_7" target="skip_6"/>
+      <arc id="5308637600" source="p_9" target="2ee0082b-4fb3-4a5d-8e85-73f40dd63e17"/>
+      <arc id="5308645040" source="7243e564-c540-40ee-bdad-36f64fb0c50b" target="p_10"/>
+      <arc id="5308638896" source="skip_10" target="sink"/>
+      <arc id="5308637744" source="skip_9" target="p_9"/>
+      <arc id="5308635968" source="p_9" target="7243e564-c540-40ee-bdad-36f64fb0c50b"/>
+      <arc id="5308635584" source="p_9" target="748f8f66-328c-46da-8576-214e1c538a7a"/>
+      <arc id="5263876560" source="source" target="tau_1"/>
+      <arc id="5308639952" source="tau_1" target="p_6"/>
+      <arc id="4792862800" source="bcacaf41-ed23-4f15-83b2-3fec9800ac03" target="p_7"/>
+      <arc id="5308644560" source="p_10" target="skip_9"/>
+      <arc id="5308636640" source="skip_5" target="p_6"/>
+      <arc id="5308638176" source="skip_6" target="p_9"/>
+      <arc id="4792866160" source="p_7" target="skip_5"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

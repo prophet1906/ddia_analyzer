@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+  <net id="imdf_net_1751016568.202616" type="http://www.pnml.org/version-2009/grammar/ptnet">
+    <name>
+      <text>imdf_net_1751016568.202616</text>
+    </name>
+    <page id="n0">
+      <place id="p_7">
+        <name>
+          <text>p_7</text>
+        </name>
+      </place>
+      <place id="source">
+        <name>
+          <text>source</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="sink">
+        <name>
+          <text>sink</text>
+        </name>
+      </place>
+      <place id="p_5">
+        <name>
+          <text>p_5</text>
+        </name>
+      </place>
+      <place id="p_4">
+        <name>
+          <text>p_4</text>
+        </name>
+      </place>
+      <place id="p_8">
+        <name>
+          <text>p_8</text>
+        </name>
+      </place>
+      <transition id="0af277ce-e74e-4d65-9113-818c38db1534">
+        <name>
+          <text>Post Job Opening</text>
+        </name>
+      </transition>
+      <transition id="a2d9af58-c75b-4f1b-a243-3a8edd74ad59">
+        <name>
+          <text>Approve Job Requisition</text>
+        </name>
+      </transition>
+      <transition id="0b11624c-2ccc-4aa5-b726-3b52c3def5dc">
+        <name>
+          <text>Create Job Requisition</text>
+        </name>
+      </transition>
+      <transition id="62cdfc77-1e26-46e8-a219-9c53d4478465">
+        <name>
+          <text>Submit Application</text>
+        </name>
+      </transition>
+      <transition id="skip_4">
+        <name>
+          <text>skip_4</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="2ac2c8be-4a82-48a6-9f31-f05eb1e6da40"/>
+      </transition>
+      <transition id="skip_5">
+        <name>
+          <text>skip_5</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="9561cfc5-de11-4c87-9d46-9069bb257958"/>
+      </transition>
+      <arc id="5263880832" source="p_4" target="a2d9af58-c75b-4f1b-a243-3a8edd74ad59"/>
+      <arc id="5263872768" source="p_5" target="0af277ce-e74e-4d65-9113-818c38db1534"/>
+      <arc id="5263883664" source="source" target="0b11624c-2ccc-4aa5-b726-3b52c3def5dc"/>
+      <arc id="5308645136" source="0af277ce-e74e-4d65-9113-818c38db1534" target="p_7"/>
+      <arc id="5308640912" source="skip_5" target="sink"/>
+      <arc id="5263870752" source="p_8" target="skip_5"/>
+      <arc id="5308645280" source="skip_4" target="p_7"/>
+      <arc id="5263881264" source="0b11624c-2ccc-4aa5-b726-3b52c3def5dc" target="p_4"/>
+      <arc id="5263880400" source="62cdfc77-1e26-46e8-a219-9c53d4478465" target="p_8"/>
+      <arc id="5263872864" source="p_7" target="62cdfc77-1e26-46e8-a219-9c53d4478465"/>
+      <arc id="5263881696" source="p_8" target="skip_4"/>
+      <arc id="5263876848" source="a2d9af58-c75b-4f1b-a243-3a8edd74ad59" target="p_5"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

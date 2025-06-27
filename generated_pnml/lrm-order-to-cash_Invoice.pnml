@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+  <net id="imdf_net_1751016559.3101609" type="http://www.pnml.org/version-2009/grammar/ptnet">
+    <name>
+      <text>imdf_net_1751016559.3101609</text>
+    </name>
+    <page id="n0">
+      <place id="source">
+        <name>
+          <text>source</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="sink">
+        <name>
+          <text>sink</text>
+        </name>
+      </place>
+      <place id="p_3">
+        <name>
+          <text>p_3</text>
+        </name>
+      </place>
+      <place id="p_5">
+        <name>
+          <text>p_5</text>
+        </name>
+      </place>
+      <place id="p_4">
+        <name>
+          <text>p_4</text>
+        </name>
+      </place>
+      <transition id="2e814a0b-a871-45ce-aab1-391669cd74c6">
+        <name>
+          <text>Generate Invoice</text>
+        </name>
+      </transition>
+      <transition id="91c6bfab-a742-4631-bdc5-a5dbc6e64097">
+        <name>
+          <text>Send Invoice to Customer</text>
+        </name>
+      </transition>
+      <transition id="2d1111c1-011a-4235-a6da-18eadf7b550b">
+        <name>
+          <text>Handle Payment Discrepancy</text>
+        </name>
+      </transition>
+      <transition id="1298ccd1-3c7b-4fdd-8b3d-ac091bb3cbf9">
+        <name>
+          <text>Issue Payment Reminder</text>
+        </name>
+      </transition>
+      <transition id="7cbdf1d6-c2ab-4ac9-a936-534714c86a0f">
+        <name>
+          <text>Apply Payment</text>
+        </name>
+      </transition>
+      <transition id="4929f4f6-11ea-44ac-bbd9-1c46c0139190">
+        <name>
+          <text>Receive Payment</text>
+        </name>
+      </transition>
+      <arc id="4792862464" source="p_4" target="4929f4f6-11ea-44ac-bbd9-1c46c0139190"/>
+      <arc id="4792868896" source="p_3" target="91c6bfab-a742-4631-bdc5-a5dbc6e64097"/>
+      <arc id="4792862272" source="91c6bfab-a742-4631-bdc5-a5dbc6e64097" target="p_4"/>
+      <arc id="4792872064" source="7cbdf1d6-c2ab-4ac9-a936-534714c86a0f" target="sink"/>
+      <arc id="4792869856" source="p_4" target="1298ccd1-3c7b-4fdd-8b3d-ac091bb3cbf9"/>
+      <arc id="5148706560" source="2d1111c1-011a-4235-a6da-18eadf7b550b" target="sink"/>
+      <arc id="4792866832" source="source" target="2e814a0b-a871-45ce-aab1-391669cd74c6"/>
+      <arc id="4792873360" source="2e814a0b-a871-45ce-aab1-391669cd74c6" target="p_3"/>
+      <arc id="4792876912" source="4929f4f6-11ea-44ac-bbd9-1c46c0139190" target="p_5"/>
+      <arc id="4792873072" source="p_5" target="7cbdf1d6-c2ab-4ac9-a936-534714c86a0f"/>
+      <arc id="4792876432" source="1298ccd1-3c7b-4fdd-8b3d-ac091bb3cbf9" target="sink"/>
+      <arc id="5148705552" source="p_4" target="2d1111c1-011a-4235-a6da-18eadf7b550b"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

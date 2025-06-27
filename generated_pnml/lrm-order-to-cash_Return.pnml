@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+  <net id="imdf_net_1751016559.3234088" type="http://www.pnml.org/version-2009/grammar/ptnet">
+    <name>
+      <text>imdf_net_1751016559.3234088</text>
+    </name>
+    <page id="n0">
+      <place id="source">
+        <name>
+          <text>source</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="p_3">
+        <name>
+          <text>p_3</text>
+        </name>
+      </place>
+      <place id="sink">
+        <name>
+          <text>sink</text>
+        </name>
+      </place>
+      <place id="p_4">
+        <name>
+          <text>p_4</text>
+        </name>
+      </place>
+      <transition id="7b545a17-9791-43c6-988d-dc92b471d5b3">
+        <name>
+          <text>Process Return Request</text>
+        </name>
+      </transition>
+      <transition id="2451687f-a802-402d-9120-094e99a8a00b">
+        <name>
+          <text>Approve Return</text>
+        </name>
+      </transition>
+      <transition id="c936a908-9d69-4bf4-9221-2e0b3e15466f">
+        <name>
+          <text>Issue Credit Note</text>
+        </name>
+      </transition>
+      <arc id="5148715536" source="source" target="7b545a17-9791-43c6-988d-dc92b471d5b3"/>
+      <arc id="5148708624" source="2451687f-a802-402d-9120-094e99a8a00b" target="p_4"/>
+      <arc id="5148705072" source="7b545a17-9791-43c6-988d-dc92b471d5b3" target="p_3"/>
+      <arc id="5148709776" source="p_3" target="2451687f-a802-402d-9120-094e99a8a00b"/>
+      <arc id="5148710544" source="p_4" target="c936a908-9d69-4bf4-9221-2e0b3e15466f"/>
+      <arc id="5148709872" source="c936a908-9d69-4bf4-9221-2e0b3e15466f" target="sink"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

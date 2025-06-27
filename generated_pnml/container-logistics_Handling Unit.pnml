@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+  <net id="imdf_net_1751016351.538656" type="http://www.pnml.org/version-2009/grammar/ptnet">
+    <name>
+      <text>imdf_net_1751016351.538656</text>
+    </name>
+    <page id="n0">
+      <place id="source">
+        <name>
+          <text>source</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="sink">
+        <name>
+          <text>sink</text>
+        </name>
+      </place>
+      <place id="p_3">
+        <name>
+          <text>p_3</text>
+        </name>
+      </place>
+      <transition id="fe81a16b-c7a5-45d5-b228-1ebaa96b6c10">
+        <name>
+          <text>Collect Goods</text>
+        </name>
+      </transition>
+      <transition id="3bafd2b3-5e71-4ae3-8d7a-935205c83116">
+        <name>
+          <text>Load Truck</text>
+        </name>
+      </transition>
+      <arc id="5519912400" source="source" target="fe81a16b-c7a5-45d5-b228-1ebaa96b6c10"/>
+      <arc id="5519909904" source="fe81a16b-c7a5-45d5-b228-1ebaa96b6c10" target="p_3"/>
+      <arc id="5519900832" source="p_3" target="3bafd2b3-5e71-4ae3-8d7a-935205c83116"/>
+      <arc id="5519902224" source="3bafd2b3-5e71-4ae3-8d7a-935205c83116" target="sink"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

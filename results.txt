@@ -1,0 +1,610 @@
+2025-06-27 14:55:49,775 - DEBUG - Ensuring all output directories exist
+2025-06-27 14:55:50,554 - INFO - ==============================
+2025-06-27 14:55:50,554 - INFO - container-logistics
+2025-06-27 14:55:52,299 - INFO - Exported container-logistics
+2025-06-27 14:55:52,305 - INFO - Exported generated_pnml/container-logistics_Container.pnml
+2025-06-27 14:55:52,550 - INFO - ------------------------------
+2025-06-27 14:55:52,550 - INFO - Container
+2025-06-27 14:55:52,550 - INFO - ------------------------------
+2025-06-27 14:55:52,550 - INFO - #places = 13
+2025-06-27 14:55:52,550 - INFO - #transitions = 22
+2025-06-27 14:55:52,550 - INFO - #arcs = 44
+2025-06-27 14:55:52,669 - INFO - fitness: token based replay = {'perc_fit_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0, 'percentage_of_fitting_traces': 100.0}
+2025-06-27 14:55:52,751 - INFO - fitness: alignments = {'percFitTraces': 100.0, 'averageFitness': 1.0, 'percentage_of_fitting_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 0.9999475356231615}
+2025-06-27 14:55:52,795 - INFO - generalization = 0.8819232211506072
+2025-06-27 14:55:52,800 - INFO - simplicity = 0.6603773584905661
+2025-06-27 14:55:52,810 - INFO - WF-net is_sound = True
+2025-06-27 14:55:52,812 - INFO - Exported generated_pnml/container-logistics_Transport Document.pnml
+2025-06-27 14:55:53,125 - INFO - ------------------------------
+2025-06-27 14:55:53,125 - INFO - Transport Document
+2025-06-27 14:55:53,125 - INFO - ------------------------------
+2025-06-27 14:55:53,125 - INFO - #places = 14
+2025-06-27 14:55:53,125 - INFO - #transitions = 18
+2025-06-27 14:55:53,125 - INFO - #arcs = 38
+2025-06-27 14:55:53,152 - INFO - fitness: token based replay = {'perc_fit_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0, 'percentage_of_fitting_traces': 100.0}
+2025-06-27 14:55:53,177 - INFO - fitness: alignments = {'percFitTraces': 100.0, 'averageFitness': 1.0, 'percentage_of_fitting_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 0.9999015476308093}
+2025-06-27 14:55:53,188 - INFO - generalization = 0.7888496763857271
+2025-06-27 14:55:53,188 - INFO - simplicity = 0.7272727272727273
+2025-06-27 14:55:53,257 - INFO - WF-net is_sound = True
+2025-06-27 14:55:53,258 - INFO - Exported generated_pnml/container-logistics_Handling Unit.pnml
+2025-06-27 14:55:53,465 - INFO - ------------------------------
+2025-06-27 14:55:53,465 - INFO - Handling Unit
+2025-06-27 14:55:53,465 - INFO - ------------------------------
+2025-06-27 14:55:53,465 - INFO - #places = 3
+2025-06-27 14:55:53,465 - INFO - #transitions = 2
+2025-06-27 14:55:53,465 - INFO - #arcs = 4
+2025-06-27 14:55:53,677 - INFO - fitness: token based replay = {'perc_fit_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0, 'percentage_of_fitting_traces': 100.0}
+2025-06-27 14:55:53,758 - INFO - fitness: alignments = {'percFitTraces': 100.0, 'averageFitness': 1.0, 'percentage_of_fitting_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0}
+2025-06-27 14:55:53,902 - INFO - generalization = 0.990265536278372
+2025-06-27 14:55:53,902 - INFO - simplicity = 1.0
+2025-06-27 14:55:53,904 - INFO - WF-net is_sound = True
+2025-06-27 14:55:53,905 - INFO - Exported generated_pnml/container-logistics_Forklift.pnml
+2025-06-27 14:55:54,122 - INFO - ------------------------------
+2025-06-27 14:55:54,122 - INFO - Forklift
+2025-06-27 14:55:54,122 - INFO - ------------------------------
+2025-06-27 14:55:54,122 - INFO - #places = 4
+2025-06-27 14:55:54,122 - INFO - #transitions = 7
+2025-06-27 14:55:54,122 - INFO - #arcs = 14
+2025-06-27 14:55:54,484 - INFO - fitness: token based replay = {'perc_fit_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0, 'percentage_of_fitting_traces': 100.0}
+2025-06-27 14:56:08,742 - INFO - fitness: alignments = {'percFitTraces': 100.0, 'averageFitness': 1.0, 'percentage_of_fitting_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 0.9999000000077509}
+2025-06-27 14:56:09,144 - INFO - generalization = 0.8204197820933314
+2025-06-27 14:56:09,144 - INFO - simplicity = 0.6470588235294118
+2025-06-27 14:56:09,146 - INFO - WF-net is_sound = True
+2025-06-27 14:56:09,147 - INFO - Exported generated_pnml/container-logistics_Customer Order.pnml
+2025-06-27 14:56:09,410 - INFO - ------------------------------
+2025-06-27 14:56:09,411 - INFO - Customer Order
+2025-06-27 14:56:09,411 - INFO - ------------------------------
+2025-06-27 14:56:09,411 - INFO - #places = 3
+2025-06-27 14:56:09,411 - INFO - #transitions = 3
+2025-06-27 14:56:09,411 - INFO - #arcs = 6
+2025-06-27 14:56:09,434 - INFO - fitness: token based replay = {'perc_fit_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0, 'percentage_of_fitting_traces': 100.0}
+2025-06-27 14:56:09,442 - INFO - fitness: alignments = {'percFitTraces': 100.0, 'averageFitness': 1.0, 'percentage_of_fitting_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 0.9999996655630247}
+2025-06-27 14:56:09,449 - INFO - generalization = 0.8366321278322132
+2025-06-27 14:56:09,450 - INFO - simplicity = 1.0
+2025-06-27 14:56:09,451 - INFO - WF-net is_sound = True
+2025-06-27 14:56:09,452 - INFO - Exported generated_pnml/container-logistics_Vehicle.pnml
+2025-06-27 14:56:09,717 - INFO - ------------------------------
+2025-06-27 14:56:09,717 - INFO - Vehicle
+2025-06-27 14:56:09,717 - INFO - ------------------------------
+2025-06-27 14:56:09,717 - INFO - #places = 4
+2025-06-27 14:56:09,717 - INFO - #transitions = 6
+2025-06-27 14:56:09,717 - INFO - #arcs = 12
+2025-06-27 14:56:09,789 - INFO - fitness: token based replay = {'perc_fit_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0, 'percentage_of_fitting_traces': 100.0}
+2025-06-27 14:56:10,060 - INFO - fitness: alignments = {'percFitTraces': 100.0, 'averageFitness': 1.0, 'percentage_of_fitting_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 0.9999122551027212}
+2025-06-27 14:56:10,113 - INFO - generalization = 0.9290739581695541
+2025-06-27 14:56:10,113 - INFO - simplicity = 0.7142857142857143
+2025-06-27 14:56:10,115 - INFO - WF-net is_sound = True
+2025-06-27 14:56:10,117 - INFO - Exported generated_pnml/container-logistics_Truck.pnml
+2025-06-27 14:56:10,365 - INFO - ------------------------------
+2025-06-27 14:56:10,365 - INFO - Truck
+2025-06-27 14:56:10,365 - INFO - ------------------------------
+2025-06-27 14:56:10,365 - INFO - #places = 4
+2025-06-27 14:56:10,365 - INFO - #transitions = 5
+2025-06-27 14:56:10,365 - INFO - #arcs = 10
+2025-06-27 14:56:11,010 - INFO - fitness: token based replay = {'perc_fit_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0, 'percentage_of_fitting_traces': 100.0}
+2025-06-27 14:56:29,365 - INFO - fitness: alignments = {'percFitTraces': 100.0, 'averageFitness': 1.0, 'percentage_of_fitting_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 0.9999000000095633}
+2025-06-27 14:56:29,957 - INFO - generalization = 0.8284830217943981
+2025-06-27 14:56:29,957 - INFO - simplicity = 0.8181818181818181
+2025-06-27 14:56:29,959 - INFO - WF-net is_sound = True
+2025-06-27 14:56:30,541 - INFO - ==============================
+2025-06-27 14:56:30,541 - INFO - procure-to-pay
+2025-06-27 14:56:31,549 - INFO - Exported procure-to-pay
+2025-06-27 14:56:31,555 - INFO - Exported generated_pnml/procure-to-pay_material.pnml
+2025-06-27 14:56:31,796 - INFO - ------------------------------
+2025-06-27 14:56:31,796 - INFO - material
+2025-06-27 14:56:31,796 - INFO - ------------------------------
+2025-06-27 14:56:31,797 - INFO - #places = 3
+2025-06-27 14:56:31,797 - INFO - #transitions = 3
+2025-06-27 14:56:31,797 - INFO - #arcs = 6
+2025-06-27 14:56:31,842 - INFO - fitness: token based replay = {'perc_fit_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0, 'percentage_of_fitting_traces': 100.0}
+2025-06-27 14:56:31,857 - INFO - fitness: alignments = {'percFitTraces': 100.0, 'averageFitness': 1.0, 'percentage_of_fitting_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0}
+2025-06-27 14:56:31,911 - INFO - generalization = 0.9645555611912074
+2025-06-27 14:56:31,911 - INFO - simplicity = 1.0
+2025-06-27 14:56:31,912 - INFO - WF-net is_sound = True
+2025-06-27 14:56:31,915 - INFO - Exported generated_pnml/procure-to-pay_invoice receipt.pnml
+2025-06-27 14:56:32,162 - INFO - ------------------------------
+2025-06-27 14:56:32,163 - INFO - invoice receipt
+2025-06-27 14:56:32,163 - INFO - ------------------------------
+2025-06-27 14:56:32,163 - INFO - #places = 6
+2025-06-27 14:56:32,163 - INFO - #transitions = 8
+2025-06-27 14:56:32,163 - INFO - #arcs = 16
+2025-06-27 14:56:32,211 - INFO - fitness: token based replay = {'perc_fit_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0, 'percentage_of_fitting_traces': 100.0}
+2025-06-27 14:56:32,270 - INFO - fitness: alignments = {'percFitTraces': 100.0, 'averageFitness': 1.0, 'percentage_of_fitting_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 0.9999134343775572}
+2025-06-27 14:56:32,296 - INFO - generalization = 0.967963150896884
+2025-06-27 14:56:32,296 - INFO - simplicity = 0.7777777777777779
+2025-06-27 14:56:32,299 - INFO - WF-net is_sound = True
+2025-06-27 14:56:32,300 - INFO - Exported generated_pnml/procure-to-pay_purchase_order.pnml
+2025-06-27 14:56:32,555 - INFO - ------------------------------
+2025-06-27 14:56:32,555 - INFO - purchase_order
+2025-06-27 14:56:32,555 - INFO - ------------------------------
+2025-06-27 14:56:32,555 - INFO - #places = 5
+2025-06-27 14:56:32,555 - INFO - #transitions = 6
+2025-06-27 14:56:32,555 - INFO - #arcs = 12
+2025-06-27 14:56:32,622 - INFO - fitness: token based replay = {'perc_fit_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0, 'percentage_of_fitting_traces': 100.0}
+2025-06-27 14:56:32,675 - INFO - fitness: alignments = {'percFitTraces': 100.0, 'averageFitness': 1.0, 'percentage_of_fitting_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 0.9999569742495376}
+2025-06-27 14:56:32,707 - INFO - generalization = 0.9786340413960801
+2025-06-27 14:56:32,707 - INFO - simplicity = 0.8461538461538463
+2025-06-27 14:56:32,709 - INFO - WF-net is_sound = True
+2025-06-27 14:56:32,711 - INFO - Exported generated_pnml/procure-to-pay_goods receipt.pnml
+2025-06-27 14:56:32,966 - INFO - ------------------------------
+2025-06-27 14:56:32,966 - INFO - goods receipt
+2025-06-27 14:56:32,966 - INFO - ------------------------------
+2025-06-27 14:56:32,966 - INFO - #places = 4
+2025-06-27 14:56:32,966 - INFO - #transitions = 7
+2025-06-27 14:56:32,966 - INFO - #arcs = 14
+2025-06-27 14:56:33,049 - INFO - fitness: token based replay = {'perc_fit_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0, 'percentage_of_fitting_traces': 100.0}
+2025-06-27 14:56:33,154 - INFO - fitness: alignments = {'percFitTraces': 100.0, 'averageFitness': 1.0, 'percentage_of_fitting_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 0.9999000031554849}
+2025-06-27 14:56:33,236 - INFO - generalization = 0.9803320364294361
+2025-06-27 14:56:33,236 - INFO - simplicity = 0.6470588235294118
+2025-06-27 14:56:33,238 - INFO - WF-net is_sound = True
+2025-06-27 14:56:33,239 - INFO - Exported generated_pnml/procure-to-pay_quotation.pnml
+2025-06-27 14:56:33,479 - INFO - ------------------------------
+2025-06-27 14:56:33,480 - INFO - quotation
+2025-06-27 14:56:33,480 - INFO - ------------------------------
+2025-06-27 14:56:33,480 - INFO - #places = 4
+2025-06-27 14:56:33,480 - INFO - #transitions = 5
+2025-06-27 14:56:33,480 - INFO - #arcs = 10
+2025-06-27 14:56:33,521 - INFO - fitness: token based replay = {'perc_fit_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0, 'percentage_of_fitting_traces': 100.0}
+2025-06-27 14:56:33,550 - INFO - fitness: alignments = {'percFitTraces': 100.0, 'averageFitness': 1.0, 'percentage_of_fitting_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 0.9999465291880114}
+2025-06-27 14:56:33,568 - INFO - generalization = 0.9726573407028495
+2025-06-27 14:56:33,568 - INFO - simplicity = 0.8181818181818181
+2025-06-27 14:56:33,570 - INFO - WF-net is_sound = True
+2025-06-27 14:56:33,575 - INFO - Exported generated_pnml/procure-to-pay_payment.pnml
+2025-06-27 14:56:33,833 - INFO - ------------------------------
+2025-06-27 14:56:33,833 - INFO - payment
+2025-06-27 14:56:33,833 - INFO - ------------------------------
+2025-06-27 14:56:33,833 - INFO - #places = 4
+2025-06-27 14:56:33,833 - INFO - #transitions = 4
+2025-06-27 14:56:33,834 - INFO - #arcs = 8
+2025-06-27 14:56:33,863 - INFO - fitness: token based replay = {'perc_fit_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0, 'percentage_of_fitting_traces': 100.0}
+2025-06-27 14:56:33,875 - INFO - fitness: alignments = {'percFitTraces': 100.0, 'averageFitness': 1.0, 'percentage_of_fitting_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 0.9999000088573138}
+2025-06-27 14:56:33,888 - INFO - generalization = 0.9600853470218819
+2025-06-27 14:56:33,888 - INFO - simplicity = 1.0
+2025-06-27 14:56:33,890 - INFO - WF-net is_sound = True
+2025-06-27 14:56:33,891 - INFO - Exported generated_pnml/procure-to-pay_purchase_requisition.pnml
+2025-06-27 14:56:34,146 - INFO - ------------------------------
+2025-06-27 14:56:34,147 - INFO - purchase_requisition
+2025-06-27 14:56:34,147 - INFO - ------------------------------
+2025-06-27 14:56:34,147 - INFO - #places = 4
+2025-06-27 14:56:34,147 - INFO - #transitions = 6
+2025-06-27 14:56:34,147 - INFO - #arcs = 12
+2025-06-27 14:56:34,179 - INFO - fitness: token based replay = {'perc_fit_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0, 'percentage_of_fitting_traces': 100.0}
+2025-06-27 14:56:34,190 - INFO - fitness: alignments = {'percFitTraces': 100.0, 'averageFitness': 1.0, 'percentage_of_fitting_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 0.9999880441475287}
+2025-06-27 14:56:34,201 - INFO - generalization = 0.9428100581368585
+2025-06-27 14:56:34,202 - INFO - simplicity = 0.7142857142857143
+2025-06-27 14:56:34,204 - INFO - WF-net is_sound = True
+2025-06-27 14:56:35,196 - INFO - ==============================
+2025-06-27 14:56:35,196 - INFO - order-management
+2025-06-27 14:56:37,799 - INFO - Exported order-management
+2025-06-27 14:56:37,803 - INFO - Exported generated_pnml/order-management_orders.pnml
+2025-06-27 14:56:38,053 - INFO - ------------------------------
+2025-06-27 14:56:38,053 - INFO - orders
+2025-06-27 14:56:38,053 - INFO - ------------------------------
+2025-06-27 14:56:38,053 - INFO - #places = 7
+2025-06-27 14:56:38,053 - INFO - #transitions = 8
+2025-06-27 14:56:38,053 - INFO - #arcs = 16
+2025-06-27 14:56:38,101 - INFO - fitness: token based replay = {'perc_fit_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0, 'percentage_of_fitting_traces': 100.0}
+2025-06-27 14:56:38,124 - INFO - fitness: alignments = {'percFitTraces': 100.0, 'averageFitness': 1.0, 'percentage_of_fitting_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 0.9999795801435597}
+2025-06-27 14:56:38,149 - INFO - generalization = 0.960044016295738
+2025-06-27 14:56:38,149 - INFO - simplicity = 0.8823529411764706
+2025-06-27 14:56:38,152 - INFO - WF-net is_sound = True
+2025-06-27 14:56:38,156 - INFO - Exported generated_pnml/order-management_employees.pnml
+2025-06-27 14:56:38,475 - INFO - ------------------------------
+2025-06-27 14:56:38,475 - INFO - employees
+2025-06-27 14:56:38,476 - INFO - ------------------------------
+2025-06-27 14:56:38,476 - INFO - #places = 18
+2025-06-27 14:56:38,476 - INFO - #transitions = 27
+2025-06-27 14:56:38,476 - INFO - #arcs = 56
+2025-06-27 14:56:39,370 - INFO - fitness: token based replay = {'perc_fit_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0, 'percentage_of_fitting_traces': 100.0}
+2025-06-27 14:57:23,767 - INFO - fitness: alignments = {'percFitTraces': 100.0, 'averageFitness': 1.0, 'percentage_of_fitting_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 0.9998970931319777}
+2025-06-27 14:57:24,631 - INFO - generalization = 0.8453898949253436
+2025-06-27 14:57:24,631 - INFO - simplicity = 0.6716417910447761
+2025-06-27 14:57:24,750 - INFO - WF-net is_sound = True
+2025-06-27 14:57:24,752 - INFO - Exported generated_pnml/order-management_products.pnml
+2025-06-27 14:57:25,040 - INFO - ------------------------------
+2025-06-27 14:57:25,040 - INFO - products
+2025-06-27 14:57:25,040 - INFO - ------------------------------
+2025-06-27 14:57:25,040 - INFO - #places = 4
+2025-06-27 14:57:25,040 - INFO - #transitions = 14
+2025-06-27 14:57:25,040 - INFO - #arcs = 28
+2025-06-27 14:57:27,987 - INFO - fitness: token based replay = {'perc_fit_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0, 'percentage_of_fitting_traces': 100.0}
+2025-06-27 14:59:11,514 - INFO - fitness: alignments = {'percFitTraces': 100.0, 'averageFitness': 1.0, 'percentage_of_fitting_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 0.9999000000073104}
+2025-06-27 14:59:14,535 - INFO - generalization = 0.9547541376829811
+2025-06-27 14:59:14,535 - INFO - simplicity = 0.47368421052631576
+2025-06-27 14:59:14,539 - INFO - WF-net is_sound = True
+2025-06-27 14:59:14,540 - INFO - Exported generated_pnml/order-management_packages.pnml
+2025-06-27 14:59:14,808 - INFO - ------------------------------
+2025-06-27 14:59:14,808 - INFO - packages
+2025-06-27 14:59:14,808 - INFO - ------------------------------
+2025-06-27 14:59:14,808 - INFO - #places = 7
+2025-06-27 14:59:14,808 - INFO - #transitions = 8
+2025-06-27 14:59:14,808 - INFO - #arcs = 16
+2025-06-27 14:59:14,848 - INFO - fitness: token based replay = {'perc_fit_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0, 'percentage_of_fitting_traces': 100.0}
+2025-06-27 14:59:14,866 - INFO - fitness: alignments = {'percFitTraces': 100.0, 'averageFitness': 1.0, 'percentage_of_fitting_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 0.9999796725940008}
+2025-06-27 14:59:14,881 - INFO - generalization = 0.9478303300200297
+2025-06-27 14:59:14,881 - INFO - simplicity = 0.8823529411764706
+2025-06-27 14:59:14,884 - INFO - WF-net is_sound = True
+2025-06-27 14:59:14,885 - INFO - Exported generated_pnml/order-management_customers.pnml
+2025-06-27 14:59:15,146 - INFO - ------------------------------
+2025-06-27 14:59:15,146 - INFO - customers
+2025-06-27 14:59:15,146 - INFO - ------------------------------
+2025-06-27 14:59:15,146 - INFO - #places = 4
+2025-06-27 14:59:15,146 - INFO - #transitions = 5
+2025-06-27 14:59:15,146 - INFO - #arcs = 10
+2025-06-27 14:59:15,281 - INFO - fitness: token based replay = {'perc_fit_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0, 'percentage_of_fitting_traces': 100.0}
+2025-06-27 14:59:16,474 - INFO - fitness: alignments = {'percFitTraces': 100.0, 'averageFitness': 1.0, 'percentage_of_fitting_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 0.9999000000747198}
+2025-06-27 14:59:16,595 - INFO - generalization = 0.8846079485319973
+2025-06-27 14:59:16,595 - INFO - simplicity = 0.8181818181818181
+2025-06-27 14:59:16,597 - INFO - WF-net is_sound = True
+2025-06-27 14:59:16,599 - INFO - Exported generated_pnml/order-management_items.pnml
+2025-06-27 14:59:16,876 - INFO - ------------------------------
+2025-06-27 14:59:16,876 - INFO - items
+2025-06-27 14:59:16,876 - INFO - ------------------------------
+2025-06-27 14:59:16,876 - INFO - #places = 4
+2025-06-27 14:59:16,876 - INFO - #transitions = 13
+2025-06-27 14:59:16,876 - INFO - #arcs = 26
+2025-06-27 14:59:17,203 - INFO - fitness: token based replay = {'perc_fit_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0, 'percentage_of_fitting_traces': 100.0}
+2025-06-27 14:59:17,784 - INFO - fitness: alignments = {'percFitTraces': 100.0, 'averageFitness': 1.0, 'percentage_of_fitting_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 0.9999301332867023}
+2025-06-27 14:59:18,034 - INFO - generalization = 0.9853465278964992
+2025-06-27 14:59:18,034 - INFO - simplicity = 0.48571428571428577
+2025-06-27 14:59:18,038 - INFO - WF-net is_sound = True
+2025-06-27 14:59:18,511 - INFO - ==============================
+2025-06-27 14:59:18,511 - INFO - lrm-order-to-cash
+2025-06-27 14:59:19,980 - INFO - Exported lrm-order-to-cash
+2025-06-27 14:59:19,983 - INFO - Exported generated_pnml/lrm-order-to-cash_Invoice.pnml
+2025-06-27 14:59:20,250 - INFO - ------------------------------
+2025-06-27 14:59:20,250 - INFO - Invoice
+2025-06-27 14:59:20,250 - INFO - ------------------------------
+2025-06-27 14:59:20,250 - INFO - #places = 5
+2025-06-27 14:59:20,250 - INFO - #transitions = 6
+2025-06-27 14:59:20,250 - INFO - #arcs = 12
+2025-06-27 14:59:20,339 - INFO - fitness: token based replay = {'perc_fit_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0, 'percentage_of_fitting_traces': 100.0}
+2025-06-27 14:59:20,359 - INFO - fitness: alignments = {'percFitTraces': 100.0, 'averageFitness': 1.0, 'percentage_of_fitting_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0}
+2025-06-27 14:59:20,381 - INFO - generalization = 0.9580362768788027
+2025-06-27 14:59:20,381 - INFO - simplicity = 0.8461538461538463
+2025-06-27 14:59:20,383 - INFO - WF-net is_sound = True
+2025-06-27 14:59:20,385 - INFO - Exported generated_pnml/lrm-order-to-cash_Return.pnml
+2025-06-27 14:59:20,639 - INFO - ------------------------------
+2025-06-27 14:59:20,640 - INFO - Return
+2025-06-27 14:59:20,640 - INFO - ------------------------------
+2025-06-27 14:59:20,640 - INFO - #places = 4
+2025-06-27 14:59:20,640 - INFO - #transitions = 3
+2025-06-27 14:59:20,640 - INFO - #arcs = 6
+2025-06-27 14:59:20,660 - INFO - fitness: token based replay = {'perc_fit_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0, 'percentage_of_fitting_traces': 100.0}
+2025-06-27 14:59:20,663 - INFO - fitness: alignments = {'percFitTraces': 100.0, 'averageFitness': 1.0, 'percentage_of_fitting_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0}
+2025-06-27 14:59:20,664 - INFO - generalization = 0.9014670721835707
+2025-06-27 14:59:20,664 - INFO - simplicity = 1.0
+2025-06-27 14:59:20,666 - INFO - WF-net is_sound = True
+2025-06-27 14:59:20,667 - INFO - Exported generated_pnml/lrm-order-to-cash_Customer.pnml
+2025-06-27 14:59:20,937 - INFO - ------------------------------
+2025-06-27 14:59:20,937 - INFO - Customer
+2025-06-27 14:59:20,937 - INFO - ------------------------------
+2025-06-27 14:59:20,937 - INFO - #places = 4
+2025-06-27 14:59:20,937 - INFO - #transitions = 11
+2025-06-27 14:59:20,937 - INFO - #arcs = 22
+2025-06-27 14:59:21,065 - INFO - fitness: token based replay = {'perc_fit_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0, 'percentage_of_fitting_traces': 100.0}
+2025-06-27 14:59:21,491 - INFO - fitness: alignments = {'percFitTraces': 100.0, 'averageFitness': 1.0, 'percentage_of_fitting_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 0.9999000018788058}
+2025-06-27 14:59:21,588 - INFO - generalization = 0.9549886864752379
+2025-06-27 14:59:21,588 - INFO - simplicity = 0.5172413793103449
+2025-06-27 14:59:21,591 - INFO - WF-net is_sound = True
+2025-06-27 14:59:21,592 - INFO - Exported generated_pnml/lrm-order-to-cash_Dispute.pnml
+2025-06-27 14:59:21,846 - INFO - ------------------------------
+2025-06-27 14:59:21,846 - INFO - Dispute
+2025-06-27 14:59:21,846 - INFO - ------------------------------
+2025-06-27 14:59:21,846 - INFO - #places = 2
+2025-06-27 14:59:21,846 - INFO - #transitions = 1
+2025-06-27 14:59:21,846 - INFO - #arcs = 2
+2025-06-27 14:59:21,868 - INFO - fitness: token based replay = {'perc_fit_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0, 'percentage_of_fitting_traces': 100.0}
+2025-06-27 14:59:21,871 - INFO - fitness: alignments = {'percFitTraces': 100.0, 'averageFitness': 1.0, 'percentage_of_fitting_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0}
+2025-06-27 14:59:21,874 - INFO - generalization = 0.9241901956421097
+2025-06-27 14:59:21,874 - INFO - simplicity = 1.0
+2025-06-27 14:59:21,875 - INFO - WF-net is_sound = True
+2025-06-27 14:59:21,876 - INFO - Exported generated_pnml/lrm-order-to-cash_Product.pnml
+2025-06-27 14:59:22,149 - INFO - ------------------------------
+2025-06-27 14:59:22,149 - INFO - Product
+2025-06-27 14:59:22,149 - INFO - ------------------------------
+2025-06-27 14:59:22,149 - INFO - #places = 4
+2025-06-27 14:59:22,149 - INFO - #transitions = 6
+2025-06-27 14:59:22,149 - INFO - #arcs = 12
+2025-06-27 14:59:22,217 - INFO - fitness: token based replay = {'perc_fit_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0, 'percentage_of_fitting_traces': 100.0}
+2025-06-27 14:59:22,310 - INFO - fitness: alignments = {'percFitTraces': 100.0, 'averageFitness': 1.0, 'percentage_of_fitting_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 0.9999000007038734}
+2025-06-27 14:59:22,343 - INFO - generalization = 0.976245552670161
+2025-06-27 14:59:22,343 - INFO - simplicity = 0.7142857142857143
+2025-06-27 14:59:22,345 - INFO - WF-net is_sound = True
+2025-06-27 14:59:22,347 - INFO - Exported generated_pnml/lrm-order-to-cash_Order.pnml
+2025-06-27 14:59:22,632 - INFO - ------------------------------
+2025-06-27 14:59:22,633 - INFO - Order
+2025-06-27 14:59:22,633 - INFO - ------------------------------
+2025-06-27 14:59:22,633 - INFO - #places = 13
+2025-06-27 14:59:22,633 - INFO - #transitions = 15
+2025-06-27 14:59:22,633 - INFO - #arcs = 30
+2025-06-27 14:59:22,712 - INFO - fitness: token based replay = {'perc_fit_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0, 'percentage_of_fitting_traces': 100.0}
+2025-06-27 14:59:22,743 - INFO - fitness: alignments = {'percFitTraces': 100.0, 'averageFitness': 1.0, 'percentage_of_fitting_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 0.9999872750389093}
+2025-06-27 14:59:22,816 - INFO - generalization = 0.9666819870154119
+2025-06-27 14:59:22,816 - INFO - simplicity = 0.875
+2025-06-27 14:59:22,822 - INFO - WF-net is_sound = True
+2025-06-27 14:59:22,824 - INFO - Exported generated_pnml/lrm-order-to-cash_Payment.pnml
+2025-06-27 14:59:23,088 - INFO - ------------------------------
+2025-06-27 14:59:23,088 - INFO - Payment
+2025-06-27 14:59:23,088 - INFO - ------------------------------
+2025-06-27 14:59:23,089 - INFO - #places = 3
+2025-06-27 14:59:23,089 - INFO - #transitions = 2
+2025-06-27 14:59:23,089 - INFO - #arcs = 4
+2025-06-27 14:59:23,129 - INFO - fitness: token based replay = {'perc_fit_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0, 'percentage_of_fitting_traces': 100.0}
+2025-06-27 14:59:23,143 - INFO - fitness: alignments = {'percFitTraces': 100.0, 'averageFitness': 1.0, 'percentage_of_fitting_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0}
+2025-06-27 14:59:23,160 - INFO - generalization = 0.9738735027863418
+2025-06-27 14:59:23,160 - INFO - simplicity = 1.0
+2025-06-27 14:59:23,161 - INFO - WF-net is_sound = True
+2025-06-27 14:59:23,162 - INFO - Exported generated_pnml/lrm-order-to-cash_Shipment.pnml
+2025-06-27 14:59:23,424 - INFO - ------------------------------
+2025-06-27 14:59:23,424 - INFO - Shipment
+2025-06-27 14:59:23,424 - INFO - ------------------------------
+2025-06-27 14:59:23,424 - INFO - #places = 3
+2025-06-27 14:59:23,424 - INFO - #transitions = 2
+2025-06-27 14:59:23,425 - INFO - #arcs = 4
+2025-06-27 14:59:23,474 - INFO - fitness: token based replay = {'perc_fit_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0, 'percentage_of_fitting_traces': 100.0}
+2025-06-27 14:59:23,490 - INFO - fitness: alignments = {'percFitTraces': 100.0, 'averageFitness': 1.0, 'percentage_of_fitting_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0}
+2025-06-27 14:59:23,510 - INFO - generalization = 0.9764884794713801
+2025-06-27 14:59:23,511 - INFO - simplicity = 1.0
+2025-06-27 14:59:23,512 - INFO - WF-net is_sound = True
+2025-06-27 14:59:23,513 - INFO - Exported generated_pnml/lrm-order-to-cash_CreditNote.pnml
+2025-06-27 14:59:23,795 - INFO - ------------------------------
+2025-06-27 14:59:23,796 - INFO - CreditNote
+2025-06-27 14:59:23,796 - INFO - ------------------------------
+2025-06-27 14:59:23,796 - INFO - #places = 2
+2025-06-27 14:59:23,796 - INFO - #transitions = 1
+2025-06-27 14:59:23,796 - INFO - #arcs = 2
+2025-06-27 14:59:23,844 - INFO - fitness: token based replay = {'perc_fit_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0, 'percentage_of_fitting_traces': 100.0}
+2025-06-27 14:59:23,846 - INFO - fitness: alignments = {'percFitTraces': 100.0, 'averageFitness': 1.0, 'percentage_of_fitting_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0}
+2025-06-27 14:59:23,848 - INFO - generalization = 0.9014670721835707
+2025-06-27 14:59:23,848 - INFO - simplicity = 1.0
+2025-06-27 14:59:23,849 - INFO - WF-net is_sound = True
+2025-06-27 14:59:24,055 - INFO - ==============================
+2025-06-27 14:59:24,055 - INFO - lrm-procure-to-pay
+2025-06-27 14:59:24,841 - INFO - Exported lrm-procure-to-pay
+2025-06-27 14:59:24,844 - INFO - Exported generated_pnml/lrm-procure-to-pay_Invoice.pnml
+2025-06-27 14:59:25,114 - INFO - ------------------------------
+2025-06-27 14:59:25,114 - INFO - Invoice
+2025-06-27 14:59:25,114 - INFO - ------------------------------
+2025-06-27 14:59:25,114 - INFO - #places = 4
+2025-06-27 14:59:25,114 - INFO - #transitions = 7
+2025-06-27 14:59:25,114 - INFO - #arcs = 14
+2025-06-27 14:59:25,143 - INFO - fitness: token based replay = {'perc_fit_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0, 'percentage_of_fitting_traces': 100.0}
+2025-06-27 14:59:25,159 - INFO - fitness: alignments = {'percFitTraces': 100.0, 'averageFitness': 1.0, 'percentage_of_fitting_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 0.9999000048227016}
+2025-06-27 14:59:25,172 - INFO - generalization = 0.956133730475988
+2025-06-27 14:59:25,172 - INFO - simplicity = 0.6470588235294118
+2025-06-27 14:59:25,175 - INFO - WF-net is_sound = True
+2025-06-27 14:59:25,176 - INFO - Exported generated_pnml/lrm-procure-to-pay_Purchase Order.pnml
+2025-06-27 14:59:25,452 - INFO - ------------------------------
+2025-06-27 14:59:25,453 - INFO - Purchase Order
+2025-06-27 14:59:25,453 - INFO - ------------------------------
+2025-06-27 14:59:25,453 - INFO - #places = 6
+2025-06-27 14:59:25,453 - INFO - #transitions = 13
+2025-06-27 14:59:25,453 - INFO - #arcs = 26
+2025-06-27 14:59:25,494 - INFO - fitness: token based replay = {'perc_fit_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0, 'percentage_of_fitting_traces': 100.0}
+2025-06-27 14:59:25,550 - INFO - fitness: alignments = {'percFitTraces': 100.0, 'averageFitness': 1.0, 'percentage_of_fitting_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 0.9999121880838809}
+2025-06-27 14:59:25,573 - INFO - generalization = 0.9596228336105265
+2025-06-27 14:59:25,573 - INFO - simplicity = 0.5757575757575757
+2025-06-27 14:59:25,577 - INFO - WF-net is_sound = True
+2025-06-27 14:59:25,578 - INFO - Exported generated_pnml/lrm-procure-to-pay_Supplier.pnml
+2025-06-27 14:59:25,850 - INFO - ------------------------------
+2025-06-27 14:59:25,850 - INFO - Supplier
+2025-06-27 14:59:25,850 - INFO - ------------------------------
+2025-06-27 14:59:25,850 - INFO - #places = 6
+2025-06-27 14:59:25,850 - INFO - #transitions = 7
+2025-06-27 14:59:25,850 - INFO - #arcs = 14
+2025-06-27 14:59:25,889 - INFO - fitness: token based replay = {'perc_fit_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0, 'percentage_of_fitting_traces': 100.0}
+2025-06-27 14:59:26,009 - INFO - fitness: alignments = {'percFitTraces': 100.0, 'averageFitness': 1.0, 'percentage_of_fitting_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 0.9999026323476393}
+2025-06-27 14:59:26,031 - INFO - generalization = 0.9200671186520574
+2025-06-27 14:59:26,031 - INFO - simplicity = 0.8666666666666667
+2025-06-27 14:59:26,034 - INFO - WF-net is_sound = True
+2025-06-27 14:59:26,036 - INFO - Exported generated_pnml/lrm-procure-to-pay_Payment.pnml
+2025-06-27 14:59:26,313 - INFO - ------------------------------
+2025-06-27 14:59:26,313 - INFO - Payment
+2025-06-27 14:59:26,313 - INFO - ------------------------------
+2025-06-27 14:59:26,313 - INFO - #places = 4
+2025-06-27 14:59:26,313 - INFO - #transitions = 4
+2025-06-27 14:59:26,313 - INFO - #arcs = 8
+2025-06-27 14:59:26,339 - INFO - fitness: token based replay = {'perc_fit_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0, 'percentage_of_fitting_traces': 100.0}
+2025-06-27 14:59:26,349 - INFO - fitness: alignments = {'percFitTraces': 100.0, 'averageFitness': 1.0, 'percentage_of_fitting_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 0.9999000097543131}
+2025-06-27 14:59:26,360 - INFO - generalization = 0.9364623494413866
+2025-06-27 14:59:26,360 - INFO - simplicity = 1.0
+2025-06-27 14:59:26,361 - INFO - WF-net is_sound = True
+2025-06-27 14:59:26,363 - INFO - Exported generated_pnml/lrm-procure-to-pay_Purchase Requisition.pnml
+2025-06-27 14:59:26,672 - INFO - ------------------------------
+2025-06-27 14:59:26,672 - INFO - Purchase Requisition
+2025-06-27 14:59:26,672 - INFO - ------------------------------
+2025-06-27 14:59:26,672 - INFO - #places = 10
+2025-06-27 14:59:26,672 - INFO - #transitions = 12
+2025-06-27 14:59:26,672 - INFO - #arcs = 26
+2025-06-27 14:59:26,722 - INFO - fitness: token based replay = {'perc_fit_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0, 'percentage_of_fitting_traces': 100.0}
+2025-06-27 14:59:26,847 - INFO - fitness: alignments = {'percFitTraces': 100.0, 'averageFitness': 1.0, 'percentage_of_fitting_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 0.9999158383247957}
+2025-06-27 14:59:26,882 - INFO - generalization = 0.9554632042347746
+2025-06-27 14:59:26,882 - INFO - simplicity = 0.7333333333333333
+2025-06-27 14:59:26,991 - INFO - WF-net is_sound = True
+2025-06-27 14:59:26,994 - INFO - Exported generated_pnml/lrm-procure-to-pay_Goods Receipt.pnml
+2025-06-27 14:59:27,281 - INFO - ------------------------------
+2025-06-27 14:59:27,281 - INFO - Goods Receipt
+2025-06-27 14:59:27,281 - INFO - ------------------------------
+2025-06-27 14:59:27,281 - INFO - #places = 4
+2025-06-27 14:59:27,282 - INFO - #transitions = 6
+2025-06-27 14:59:27,282 - INFO - #arcs = 12
+2025-06-27 14:59:27,310 - INFO - fitness: token based replay = {'perc_fit_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0, 'percentage_of_fitting_traces': 100.0}
+2025-06-27 14:59:27,325 - INFO - fitness: alignments = {'percFitTraces': 100.0, 'averageFitness': 1.0, 'percentage_of_fitting_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 0.9999000064555652}
+2025-06-27 14:59:27,337 - INFO - generalization = 0.9528312744442993
+2025-06-27 14:59:27,338 - INFO - simplicity = 0.7142857142857143
+2025-06-27 14:59:27,340 - INFO - WF-net is_sound = True
+2025-06-27 14:59:27,657 - INFO - ==============================
+2025-06-27 14:59:27,657 - INFO - lrm-hiring
+2025-06-27 14:59:28,832 - INFO - Exported lrm-hiring
+2025-06-27 14:59:28,836 - INFO - Exported generated_pnml/lrm-hiring_Interviewer.pnml
+2025-06-27 14:59:29,101 - INFO - ------------------------------
+2025-06-27 14:59:29,101 - INFO - Interviewer
+2025-06-27 14:59:29,101 - INFO - ------------------------------
+2025-06-27 14:59:29,101 - INFO - #places = 4
+2025-06-27 14:59:29,101 - INFO - #transitions = 5
+2025-06-27 14:59:29,101 - INFO - #arcs = 10
+2025-06-27 14:59:29,147 - INFO - fitness: token based replay = {'perc_fit_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0, 'percentage_of_fitting_traces': 100.0}
+2025-06-27 14:59:29,299 - INFO - fitness: alignments = {'percFitTraces': 100.0, 'averageFitness': 1.0, 'percentage_of_fitting_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 0.9999000003586788}
+2025-06-27 14:59:29,329 - INFO - generalization = 0.928763062945213
+2025-06-27 14:59:29,329 - INFO - simplicity = 0.8181818181818181
+2025-06-27 14:59:29,331 - INFO - WF-net is_sound = True
+2025-06-27 14:59:29,334 - INFO - Exported generated_pnml/lrm-hiring_Candidate.pnml
+2025-06-27 14:59:29,628 - INFO - ------------------------------
+2025-06-27 14:59:29,628 - INFO - Candidate
+2025-06-27 14:59:29,628 - INFO - ------------------------------
+2025-06-27 14:59:29,628 - INFO - #places = 20
+2025-06-27 14:59:29,628 - INFO - #transitions = 31
+2025-06-27 14:59:29,628 - INFO - #arcs = 62
+2025-06-27 14:59:29,703 - INFO - fitness: token based replay = {'perc_fit_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0, 'percentage_of_fitting_traces': 100.0}
+2025-06-27 14:59:29,782 - INFO - fitness: alignments = {'percFitTraces': 100.0, 'averageFitness': 1.0, 'percentage_of_fitting_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 0.9999187569905301}
+2025-06-27 14:59:29,829 - INFO - generalization = 0.9492149721000995
+2025-06-27 14:59:29,829 - INFO - simplicity = 0.6986301369863015
+2025-06-27 14:59:29,843 - INFO - WF-net is_sound = True
+2025-06-27 14:59:29,844 - INFO - Exported generated_pnml/lrm-hiring_Assessment.pnml
+2025-06-27 14:59:30,125 - INFO - ------------------------------
+2025-06-27 14:59:30,125 - INFO - Assessment
+2025-06-27 14:59:30,125 - INFO - ------------------------------
+2025-06-27 14:59:30,125 - INFO - #places = 4
+2025-06-27 14:59:30,125 - INFO - #transitions = 6
+2025-06-27 14:59:30,125 - INFO - #arcs = 12
+2025-06-27 14:59:30,154 - INFO - fitness: token based replay = {'perc_fit_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0, 'percentage_of_fitting_traces': 100.0}
+2025-06-27 14:59:30,167 - INFO - fitness: alignments = {'percFitTraces': 100.0, 'averageFitness': 1.0, 'percentage_of_fitting_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 0.9999000035409766}
+2025-06-27 14:59:30,177 - INFO - generalization = 0.9660892133288342
+2025-06-27 14:59:30,177 - INFO - simplicity = 0.7142857142857143
+2025-06-27 14:59:30,179 - INFO - WF-net is_sound = True
+2025-06-27 14:59:30,180 - INFO - Exported generated_pnml/lrm-hiring_JobRequisition.pnml
+2025-06-27 14:59:30,441 - INFO - ------------------------------
+2025-06-27 14:59:30,441 - INFO - JobRequisition
+2025-06-27 14:59:30,441 - INFO - ------------------------------
+2025-06-27 14:59:30,441 - INFO - #places = 6
+2025-06-27 14:59:30,441 - INFO - #transitions = 6
+2025-06-27 14:59:30,441 - INFO - #arcs = 12
+2025-06-27 14:59:30,484 - INFO - fitness: token based replay = {'perc_fit_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0, 'percentage_of_fitting_traces': 100.0}
+2025-06-27 14:59:30,570 - INFO - fitness: alignments = {'percFitTraces': 100.0, 'averageFitness': 1.0, 'percentage_of_fitting_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 0.9999189191380564}
+2025-06-27 14:59:30,594 - INFO - generalization = 0.9271955079331315
+2025-06-27 14:59:30,595 - INFO - simplicity = 1.0
+2025-06-27 14:59:30,597 - INFO - WF-net is_sound = True
+2025-06-27 14:59:30,598 - INFO - Exported generated_pnml/lrm-hiring_HiringManager.pnml
+2025-06-27 14:59:30,864 - INFO - ------------------------------
+2025-06-27 14:59:30,864 - INFO - HiringManager
+2025-06-27 14:59:30,864 - INFO - ------------------------------
+2025-06-27 14:59:30,864 - INFO - #places = 6
+2025-06-27 14:59:30,864 - INFO - #transitions = 9
+2025-06-27 14:59:30,864 - INFO - #arcs = 18
+2025-06-27 14:59:30,930 - INFO - fitness: token based replay = {'perc_fit_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0, 'percentage_of_fitting_traces': 100.0}
+2025-06-27 14:59:31,232 - INFO - fitness: alignments = {'percFitTraces': 100.0, 'averageFitness': 1.0, 'percentage_of_fitting_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 0.9999012228561509}
+2025-06-27 14:59:31,280 - INFO - generalization = 0.8801693994975012
+2025-06-27 14:59:31,280 - INFO - simplicity = 0.7142857142857143
+2025-06-27 14:59:31,283 - INFO - WF-net is_sound = True
+2025-06-27 14:59:31,284 - INFO - Exported generated_pnml/lrm-hiring_Recruiter.pnml
+2025-06-27 14:59:31,563 - INFO - ------------------------------
+2025-06-27 14:59:31,563 - INFO - Recruiter
+2025-06-27 14:59:31,563 - INFO - ------------------------------
+2025-06-27 14:59:31,563 - INFO - #places = 6
+2025-06-27 14:59:31,563 - INFO - #transitions = 9
+2025-06-27 14:59:31,563 - INFO - #arcs = 18
+2025-06-27 14:59:31,847 - INFO - fitness: token based replay = {'perc_fit_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0, 'percentage_of_fitting_traces': 100.0}
+2025-06-27 14:59:35,578 - INFO - fitness: alignments = {'percFitTraces': 100.0, 'averageFitness': 1.0, 'percentage_of_fitting_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 0.9999001483683706}
+2025-06-27 14:59:35,805 - INFO - generalization = 0.863150553908799
+2025-06-27 14:59:35,806 - INFO - simplicity = 0.7142857142857143
+2025-06-27 14:59:35,808 - INFO - WF-net is_sound = True
+2025-06-27 14:59:36,010 - INFO - ==============================
+2025-06-27 14:59:36,010 - INFO - lrm-hospital-patient
+2025-06-27 14:59:36,901 - INFO - Exported lrm-hospital-patient
+2025-06-27 14:59:36,903 - INFO - Exported generated_pnml/lrm-hospital-patient_Nurse.pnml
+2025-06-27 14:59:37,162 - INFO - ------------------------------
+2025-06-27 14:59:37,162 - INFO - Nurse
+2025-06-27 14:59:37,162 - INFO - ------------------------------
+2025-06-27 14:59:37,162 - INFO - #places = 4
+2025-06-27 14:59:37,162 - INFO - #transitions = 5
+2025-06-27 14:59:37,162 - INFO - #arcs = 10
+2025-06-27 14:59:37,193 - INFO - fitness: token based replay = {'perc_fit_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0, 'percentage_of_fitting_traces': 100.0}
+2025-06-27 14:59:37,218 - INFO - fitness: alignments = {'percFitTraces': 100.0, 'averageFitness': 1.0, 'percentage_of_fitting_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 0.9999000018140157}
+2025-06-27 14:59:37,231 - INFO - generalization = 0.9676978106503318
+2025-06-27 14:59:37,231 - INFO - simplicity = 0.8181818181818181
+2025-06-27 14:59:37,233 - INFO - WF-net is_sound = True
+2025-06-27 14:59:37,238 - INFO - Exported generated_pnml/lrm-hospital-patient_Room.pnml
+2025-06-27 14:59:37,490 - INFO - ------------------------------
+2025-06-27 14:59:37,490 - INFO - Room
+2025-06-27 14:59:37,490 - INFO - ------------------------------
+2025-06-27 14:59:37,490 - INFO - #places = 4
+2025-06-27 14:59:37,490 - INFO - #transitions = 4
+2025-06-27 14:59:37,490 - INFO - #arcs = 8
+2025-06-27 14:59:37,512 - INFO - fitness: token based replay = {'perc_fit_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0, 'percentage_of_fitting_traces': 100.0}
+2025-06-27 14:59:37,528 - INFO - fitness: alignments = {'percFitTraces': 100.0, 'averageFitness': 1.0, 'percentage_of_fitting_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 0.9999000033262754}
+2025-06-27 14:59:37,537 - INFO - generalization = 0.9631304735501118
+2025-06-27 14:59:37,537 - INFO - simplicity = 1.0
+2025-06-27 14:59:37,538 - INFO - WF-net is_sound = True
+2025-06-27 14:59:37,540 - INFO - Exported generated_pnml/lrm-hospital-patient_LabTechnician.pnml
+2025-06-27 14:59:37,798 - INFO - ------------------------------
+2025-06-27 14:59:37,798 - INFO - LabTechnician
+2025-06-27 14:59:37,798 - INFO - ------------------------------
+2025-06-27 14:59:37,798 - INFO - #places = 4
+2025-06-27 14:59:37,798 - INFO - #transitions = 4
+2025-06-27 14:59:37,798 - INFO - #arcs = 8
+2025-06-27 14:59:37,814 - INFO - fitness: token based replay = {'perc_fit_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0, 'percentage_of_fitting_traces': 100.0}
+2025-06-27 14:59:37,820 - INFO - fitness: alignments = {'percFitTraces': 100.0, 'averageFitness': 1.0, 'percentage_of_fitting_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 0.999900004640933}
+2025-06-27 14:59:37,823 - INFO - generalization = 0.9185752248191439
+2025-06-27 14:59:37,823 - INFO - simplicity = 1.0
+2025-06-27 14:59:37,825 - INFO - WF-net is_sound = True
+2025-06-27 14:59:37,826 - INFO - Exported generated_pnml/lrm-hospital-patient_InsuranceCompany.pnml
+2025-06-27 14:59:38,078 - INFO - ------------------------------
+2025-06-27 14:59:38,078 - INFO - InsuranceCompany
+2025-06-27 14:59:38,079 - INFO - ------------------------------
+2025-06-27 14:59:38,079 - INFO - #places = 4
+2025-06-27 14:59:38,079 - INFO - #transitions = 4
+2025-06-27 14:59:38,079 - INFO - #arcs = 8
+2025-06-27 14:59:38,140 - INFO - fitness: token based replay = {'perc_fit_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0, 'percentage_of_fitting_traces': 100.0}
+2025-06-27 14:59:38,524 - INFO - fitness: alignments = {'percFitTraces': 100.0, 'averageFitness': 1.0, 'percentage_of_fitting_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 0.9999000000995024}
+2025-06-27 14:59:38,571 - INFO - generalization = 0.8306917490520538
+2025-06-27 14:59:38,571 - INFO - simplicity = 1.0
+2025-06-27 14:59:38,573 - INFO - WF-net is_sound = True
+2025-06-27 14:59:38,574 - INFO - Exported generated_pnml/lrm-hospital-patient_DiagnosticEquipment.pnml
+2025-06-27 14:59:38,837 - INFO - ------------------------------
+2025-06-27 14:59:38,838 - INFO - DiagnosticEquipment
+2025-06-27 14:59:38,838 - INFO - ------------------------------
+2025-06-27 14:59:38,838 - INFO - #places = 4
+2025-06-27 14:59:38,838 - INFO - #transitions = 4
+2025-06-27 14:59:38,838 - INFO - #arcs = 8
+2025-06-27 14:59:38,854 - INFO - fitness: token based replay = {'perc_fit_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0, 'percentage_of_fitting_traces': 100.0}
+2025-06-27 14:59:38,861 - INFO - fitness: alignments = {'percFitTraces': 100.0, 'averageFitness': 1.0, 'percentage_of_fitting_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 0.9999000046041046}
+2025-06-27 14:59:38,864 - INFO - generalization = 0.9183486577207017
+2025-06-27 14:59:38,864 - INFO - simplicity = 1.0
+2025-06-27 14:59:38,866 - INFO - WF-net is_sound = True
+2025-06-27 14:59:38,867 - INFO - Exported generated_pnml/lrm-hospital-patient_Physician.pnml
+2025-06-27 14:59:39,132 - INFO - ------------------------------
+2025-06-27 14:59:39,132 - INFO - Physician
+2025-06-27 14:59:39,132 - INFO - ------------------------------
+2025-06-27 14:59:39,132 - INFO - #places = 8
+2025-06-27 14:59:39,132 - INFO - #transitions = 9
+2025-06-27 14:59:39,132 - INFO - #arcs = 20
+2025-06-27 14:59:39,288 - INFO - fitness: token based replay = {'perc_fit_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0, 'percentage_of_fitting_traces': 100.0}
+2025-06-27 14:59:39,662 - INFO - fitness: alignments = {'percFitTraces': 100.0, 'averageFitness': 1.0, 'percentage_of_fitting_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 0.9998958707657485}
+2025-06-27 14:59:39,736 - INFO - generalization = 0.8866616570198431
+2025-06-27 14:59:39,736 - INFO - simplicity = 0.7391304347826086
+2025-06-27 14:59:39,824 - INFO - WF-net is_sound = True
+2025-06-27 14:59:39,826 - INFO - Exported generated_pnml/lrm-hospital-patient_Bed.pnml
+2025-06-27 14:59:40,083 - INFO - ------------------------------
+2025-06-27 14:59:40,083 - INFO - Bed
+2025-06-27 14:59:40,083 - INFO - ------------------------------
+2025-06-27 14:59:40,083 - INFO - #places = 4
+2025-06-27 14:59:40,083 - INFO - #transitions = 4
+2025-06-27 14:59:40,083 - INFO - #arcs = 8
+2025-06-27 14:59:40,107 - INFO - fitness: token based replay = {'perc_fit_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0, 'percentage_of_fitting_traces': 100.0}
+2025-06-27 14:59:40,122 - INFO - fitness: alignments = {'percFitTraces': 100.0, 'averageFitness': 1.0, 'percentage_of_fitting_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 0.9999000045378691}
+2025-06-27 14:59:40,131 - INFO - generalization = 0.9671218974336955
+2025-06-27 14:59:40,132 - INFO - simplicity = 1.0
+2025-06-27 14:59:40,133 - INFO - WF-net is_sound = True
+2025-06-27 14:59:40,137 - INFO - Exported generated_pnml/lrm-hospital-patient_Patient.pnml
+2025-06-27 14:59:40,401 - INFO - ------------------------------
+2025-06-27 14:59:40,401 - INFO - Patient
+2025-06-27 14:59:40,401 - INFO - ------------------------------
+2025-06-27 14:59:40,401 - INFO - #places = 10
+2025-06-27 14:59:40,402 - INFO - #transitions = 11
+2025-06-27 14:59:40,402 - INFO - #arcs = 22
+2025-06-27 14:59:40,449 - INFO - fitness: token based replay = {'perc_fit_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 1.0, 'percentage_of_fitting_traces': 100.0}
+2025-06-27 14:59:40,471 - INFO - fitness: alignments = {'percFitTraces': 100.0, 'averageFitness': 1.0, 'percentage_of_fitting_traces': 100.0, 'average_trace_fitness': 1.0, 'log_fitness': 0.9999882761221127}
+2025-06-27 14:59:40,500 - INFO - generalization = 0.9711851449710442
+2025-06-27 14:59:40,500 - INFO - simplicity = 0.9130434782608695
+2025-06-27 14:59:40,503 - INFO - WF-net is_sound = True

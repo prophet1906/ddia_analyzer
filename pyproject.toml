@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "ddia-analyzer"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pm4py = "^2.7.15.2"
+fastapi = "^0.115.12"
+uvicorn = "^0.34.2"
+pulp = "^3.1.1"
+pyemd = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

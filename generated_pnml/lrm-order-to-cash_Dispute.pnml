@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+  <net id="imdf_net_1751016559.369587" type="http://www.pnml.org/version-2009/grammar/ptnet">
+    <name>
+      <text>imdf_net_1751016559.369587</text>
+    </name>
+    <page id="n0">
+      <place id="source">
+        <name>
+          <text>source</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="sink">
+        <name>
+          <text>sink</text>
+        </name>
+      </place>
+      <transition id="7d17c57b-8e61-475c-b295-7915cd042ca2">
+        <name>
+          <text>Handle Payment Discrepancy</text>
+        </name>
+      </transition>
+      <arc id="5148710688" source="source" target="7d17c57b-8e61-475c-b295-7915cd042ca2"/>
+      <arc id="5148713664" source="7d17c57b-8e61-475c-b295-7915cd042ca2" target="sink"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

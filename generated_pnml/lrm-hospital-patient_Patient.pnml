@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+  <net id="imdf_net_1751016576.459618" type="http://www.pnml.org/version-2009/grammar/ptnet">
+    <name>
+      <text>imdf_net_1751016576.459618</text>
+    </name>
+    <page id="n0">
+      <place id="sink">
+        <name>
+          <text>sink</text>
+        </name>
+      </place>
+      <place id="p_5">
+        <name>
+          <text>p_5</text>
+        </name>
+      </place>
+      <place id="p_3">
+        <name>
+          <text>p_3</text>
+        </name>
+      </place>
+      <place id="p_6">
+        <name>
+          <text>p_6</text>
+        </name>
+      </place>
+      <place id="p_8">
+        <name>
+          <text>p_8</text>
+        </name>
+      </place>
+      <place id="p_9">
+        <name>
+          <text>p_9</text>
+        </name>
+      </place>
+      <place id="p_10">
+        <name>
+          <text>p_10</text>
+        </name>
+      </place>
+      <place id="source">
+        <name>
+          <text>source</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="p_4">
+        <name>
+          <text>p_4</text>
+        </name>
+      </place>
+      <place id="p_7">
+        <name>
+          <text>p_7</text>
+        </name>
+      </place>
+      <transition id="1702b744-53bf-40ba-a7fb-93fd0871cd3f">
+        <name>
+          <text>Pre-Admission Consultation</text>
+        </name>
+      </transition>
+      <transition id="b2109f90-72da-4a67-a9df-a78c924e22fc">
+        <name>
+          <text>Initial Evaluation</text>
+        </name>
+      </transition>
+      <transition id="28e7517e-44bc-4ecd-b9c9-92eb56fa1b35">
+        <name>
+          <text>Assign Bed</text>
+        </name>
+      </transition>
+      <transition id="skip_1">
+        <name>
+          <text>skip_1</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="6d69d161-cd27-4723-88bf-aa8683e1b78f"/>
+      </transition>
+      <transition id="f0e10dd6-4772-44a9-8522-0e4099eb3549">
+        <name>
+          <text>Diagnostic Test Order</text>
+        </name>
+      </transition>
+      <transition id="skip_2">
+        <name>
+          <text>skip_2</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="dbb82079-f9e4-492f-bf36-452c01f11616"/>
+      </transition>
+      <transition id="f7a48e0b-9994-4480-9b7d-e2de9ae9a635">
+        <name>
+          <text>Insurance Verification</text>
+        </name>
+      </transition>
+      <transition id="b5aa2670-28a8-418c-adf8-1dd6adff3c50">
+        <name>
+          <text>Patient Arrival</text>
+        </name>
+      </transition>
+      <transition id="7c429d89-ebc5-4338-b32d-da458457a097">
+        <name>
+          <text>Registration</text>
+        </name>
+      </transition>
+      <transition id="fa2c7997-06f8-4179-be61-8ccf24c02894">
+        <name>
+          <text>Appointment Scheduling</text>
+        </name>
+      </transition>
+      <transition id="89375b09-cb8d-4e1d-ab9d-c194cc1424f8">
+        <name>
+          <text>Perform Diagnostic Test</text>
+        </name>
+      </transition>
+      <arc id="5606612352" source="f7a48e0b-9994-4480-9b7d-e2de9ae9a635" target="p_4"/>
+      <arc id="5606607744" source="1702b744-53bf-40ba-a7fb-93fd0871cd3f" target="p_3"/>
+      <arc id="5606610576" source="28e7517e-44bc-4ecd-b9c9-92eb56fa1b35" target="p_9"/>
+      <arc id="5606607504" source="f0e10dd6-4772-44a9-8522-0e4099eb3549" target="p_10"/>
+      <arc id="5606612880" source="source" target="1702b744-53bf-40ba-a7fb-93fd0871cd3f"/>
+      <arc id="5606612496" source="p_5" target="b5aa2670-28a8-418c-adf8-1dd6adff3c50"/>
+      <arc id="5606606352" source="7c429d89-ebc5-4338-b32d-da458457a097" target="p_7"/>
+      <arc id="5606618640" source="p_7" target="b2109f90-72da-4a67-a9df-a78c924e22fc"/>
+      <arc id="5606614032" source="b2109f90-72da-4a67-a9df-a78c924e22fc" target="p_8"/>
+      <arc id="5606616624" source="p_4" target="fa2c7997-06f8-4179-be61-8ccf24c02894"/>
+      <arc id="5606619312" source="fa2c7997-06f8-4179-be61-8ccf24c02894" target="p_5"/>
+      <arc id="5606615088" source="p_9" target="skip_1"/>
+      <arc id="5606615616" source="p_8" target="28e7517e-44bc-4ecd-b9c9-92eb56fa1b35"/>
+      <arc id="5606619456" source="p_9" target="f0e10dd6-4772-44a9-8522-0e4099eb3549"/>
+      <arc id="5606606784" source="p_10" target="89375b09-cb8d-4e1d-ab9d-c194cc1424f8"/>
+      <arc id="5606606544" source="p_6" target="7c429d89-ebc5-4338-b32d-da458457a097"/>
+      <arc id="5606607312" source="skip_1" target="p_10"/>
+      <arc id="5606618208" source="p_10" target="skip_2"/>
+      <arc id="5606617200" source="p_3" target="f7a48e0b-9994-4480-9b7d-e2de9ae9a635"/>
+      <arc id="5606618352" source="b5aa2670-28a8-418c-adf8-1dd6adff3c50" target="p_6"/>
+      <arc id="5606611824" source="skip_2" target="sink"/>
+      <arc id="5606608752" source="89375b09-cb8d-4e1d-ab9d-c194cc1424f8" target="sink"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

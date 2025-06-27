@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+  <net id="imdf_net_1751016390.9799821" type="http://www.pnml.org/version-2009/grammar/ptnet">
+    <name>
+      <text>imdf_net_1751016390.9799821</text>
+    </name>
+    <page id="n0">
+      <place id="source">
+        <name>
+          <text>source</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="sink">
+        <name>
+          <text>sink</text>
+        </name>
+      </place>
+      <place id="p_3">
+        <name>
+          <text>p_3</text>
+        </name>
+      </place>
+      <transition id="b5e1c831-dc5a-405a-b157-a7c5c649e37a">
+        <name>
+          <text>Create Purchase Requisition</text>
+        </name>
+      </transition>
+      <transition id="eddd5392-d70e-4e97-aa38-3571adb42b02">
+        <name>
+          <text>Approve Purchase Requisition</text>
+        </name>
+      </transition>
+      <transition id="a11e4486-ada3-4921-924f-17fb7070459f">
+        <name>
+          <text>Delegate Purchase Requisition Approval</text>
+        </name>
+      </transition>
+      <arc id="5519908128" source="p_3" target="eddd5392-d70e-4e97-aa38-3571adb42b02"/>
+      <arc id="5519906976" source="eddd5392-d70e-4e97-aa38-3571adb42b02" target="sink"/>
+      <arc id="5519908800" source="b5e1c831-dc5a-405a-b157-a7c5c649e37a" target="p_3"/>
+      <arc id="5519906544" source="source" target="b5e1c831-dc5a-405a-b157-a7c5c649e37a"/>
+      <arc id="5519909424" source="p_3" target="a11e4486-ada3-4921-924f-17fb7070459f"/>
+      <arc id="5519911728" source="a11e4486-ada3-4921-924f-17fb7070459f" target="sink"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

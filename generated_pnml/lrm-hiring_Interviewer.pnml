@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+  <net id="imdf_net_1751016568.134154" type="http://www.pnml.org/version-2009/grammar/ptnet">
+    <name>
+      <text>imdf_net_1751016568.134154</text>
+    </name>
+    <page id="n0">
+      <place id="p_6">
+        <name>
+          <text>p_6</text>
+        </name>
+      </place>
+      <place id="source">
+        <name>
+          <text>source</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="sink">
+        <name>
+          <text>sink</text>
+        </name>
+      </place>
+      <place id="p_5">
+        <name>
+          <text>p_5</text>
+        </name>
+      </place>
+      <transition id="08665c7b-7d43-4df6-b2c2-ec9cb7b14f36">
+        <name>
+          <text>Conduct Panel Interview</text>
+        </name>
+      </transition>
+      <transition id="skip_5">
+        <name>
+          <text>skip_5</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="204d2910-3dab-4359-9467-c77699d2a4d2"/>
+      </transition>
+      <transition id="tau_1">
+        <name>
+          <text>tau_1</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="7cee3880-1229-4356-907a-5f22e013372e"/>
+      </transition>
+      <transition id="becec22f-22e6-4dc4-97f1-8ef719504447">
+        <name>
+          <text>Schedule Panel Interview</text>
+        </name>
+      </transition>
+      <transition id="skip_6">
+        <name>
+          <text>skip_6</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="f1aa242c-7dbc-4729-bcae-cd4930e58079"/>
+      </transition>
+      <arc id="4792862176" source="p_5" target="becec22f-22e6-4dc4-97f1-8ef719504447"/>
+      <arc id="4792870048" source="p_5" target="08665c7b-7d43-4df6-b2c2-ec9cb7b14f36"/>
+      <arc id="4792872640" source="08665c7b-7d43-4df6-b2c2-ec9cb7b14f36" target="p_6"/>
+      <arc id="5308635200" source="skip_6" target="sink"/>
+      <arc id="4792873360" source="source" target="tau_1"/>
+      <arc id="4792874320" source="becec22f-22e6-4dc4-97f1-8ef719504447" target="p_6"/>
+      <arc id="4792871632" source="p_6" target="skip_5"/>
+      <arc id="4792874416" source="p_6" target="skip_6"/>
+      <arc id="5308638800" source="tau_1" target="p_5"/>
+      <arc id="5308642160" source="skip_5" target="p_5"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

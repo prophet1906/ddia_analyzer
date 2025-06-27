@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+  <net id="imdf_net_1751016559.477377" type="http://www.pnml.org/version-2009/grammar/ptnet">
+    <name>
+      <text>imdf_net_1751016559.477377</text>
+    </name>
+    <page id="n0">
+      <place id="source">
+        <name>
+          <text>source</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="sink">
+        <name>
+          <text>sink</text>
+        </name>
+      </place>
+      <place id="p_3">
+        <name>
+          <text>p_3</text>
+        </name>
+      </place>
+      <transition id="90703152-2194-452c-a29b-31c897246a99">
+        <name>
+          <text>Receive Payment</text>
+        </name>
+      </transition>
+      <transition id="32f86c85-1cf0-4e0c-aeb6-3cd30b5effd6">
+        <name>
+          <text>Apply Payment</text>
+        </name>
+      </transition>
+      <arc id="5148716688" source="source" target="90703152-2194-452c-a29b-31c897246a99"/>
+      <arc id="5148711120" source="32f86c85-1cf0-4e0c-aeb6-3cd30b5effd6" target="sink"/>
+      <arc id="5148719808" source="p_3" target="32f86c85-1cf0-4e0c-aeb6-3cd30b5effd6"/>
+      <arc id="5148705744" source="90703152-2194-452c-a29b-31c897246a99" target="p_3"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>
