@@ -11,6 +11,7 @@
 
 # Execution Steps
 ```sh
+pyenv install 3.11
 poetry env use 3.11
 poetry install 
 poetry run python ddia_analyzer/ocel2.py
