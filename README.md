@@ -1,5 +1,5 @@
 # Pre-requisites
-- Python
+- Pyenv
 - Poetry
 - GreatSPN
 
