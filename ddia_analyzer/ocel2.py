@@ -5,15 +5,18 @@ from pathlib import Path
 from pm4py.algo.evaluation.generalization import algorithm as generalization_evaluator
 from pm4py.algo.evaluation.simplicity import algorithm as simplicity_evaluator
 from pm4py.algo.analysis.woflan import algorithm as woflan
-from pm4py.statistics.variants.log import get as variants_module
-from pm4py.algo.simulation.playout.petri_net import algorithm as simulator
+# from pm4py.statistics.variants.log import get as variants_module
+# from pm4py.algo.simulation.playout.petri_net import algorithm as simulator
 # from pm4py.algo.evaluation.earth_mover_distance import algorithm as emd_evaluator
 
 logger = logging.getLogger("ddia_analyzer")
 logger.setLevel(logging.DEBUG)
 formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
 
-os.remove("results.txt")
+result_dir = "results.txt"
+if os.path.exists(result_dir):
+    os.remove(result_dir)
+
 file_handler = logging.FileHandler('results.txt')
 file_handler.setLevel(logging.DEBUG)
 file_handler.setFormatter(formatter)
@@ -26,7 +29,7 @@ logger.addHandler(file_handler)
 logger.addHandler(console_handler)
 
 def ensure_output_dirs():
-    logger.debug("Ensuring all output directories exist")
+    logger.info("Ensuring all output directories exist")
     Path("generated_pnml").mkdir(parents=True, exist_ok=True)
     Path("generated_ocpn").mkdir(parents=True, exist_ok=True)
     Path("generated_uncolored_pn").mkdir(parents=True, exist_ok=True)
@@ -43,7 +46,7 @@ def __fix_pnml_type(path: str):
         with open(path, 'r') as file:
             content = file.read()
     except FileNotFoundError:
-        print(f"Error: File '{path}' not found.")
+        logger.error(f"Error: File '{path}' not found.")
         return
 
     modified_content = content.replace(
@@ -93,15 +96,18 @@ def get_stats(scenario, ocel):
         simplicity = simplicity_evaluator.apply(ocpn["petri_nets"][o][0])
         logger.info(f"simplicity = {simplicity}")
         # WF-net analysis
-        is_sound = woflan.apply(
+        is_sound, dictio_diagnostics = woflan.apply(
             ocpn["petri_nets"][o][0], ocpn["petri_nets"][o][1], ocpn["petri_nets"][o][2],
             parameters={
                 woflan.Parameters.RETURN_ASAP_WHEN_NOT_SOUND: False,
-                woflan.Parameters.PRINT_DIAGNOSTICS: True,
-                woflan.Parameters.RETURN_DIAGNOSTICS: False
+                woflan.Parameters.PRINT_DIAGNOSTICS: False,
+                woflan.Parameters.RETURN_DIAGNOSTICS: True
             }
         )
         logger.info(f"WF-net is_sound = {is_sound}")
+        for output in dictio_diagnostics.keys():
+            logger.info(f"WOFLAN {output} = {dictio_diagnostics[output]}")    
+        
         # Earth Mover Distance only relevant for stochastic conformance checking
         # Stochastic playout simulation may get stuck
         # log_language = variants_module.get_language(log)
@@ -113,7 +119,7 @@ def get_stats(scenario, ocel):
         # model_language = variants_module.get_language(playout_log)
         # emd = emd_evaluator.apply(model_language, log_language)
         # logger.info(f"earth mover distance = {emd}", emd)
-    print("=" * 30)
+    logger.info("=" * 30)
 
 if __name__ == "__main__":
     ensure_output_dirs()
