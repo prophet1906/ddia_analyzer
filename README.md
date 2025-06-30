@@ -10,11 +10,15 @@
 - greatspn => GreatSPN projects with imported PNML and CTL Properties, 1 per event log
 
 # Execution Steps
+```sh
 poetry env use 3.11
 poetry install 
 poetry run python ddia_analyzer/ocel2.py
+```
 
-# Performance Boost
+# Performance Boost - Mac
+```sh
 brew install openblas
 export OPENBLAS_NUM_THREADS=8
 export OMP_NUM_THREADS=8
+```
