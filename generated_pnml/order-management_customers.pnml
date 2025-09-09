@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
-  <net id="imdf_net_1751016397.1143732" type="http://www.pnml.org/version-2009/grammar/ptnet">
+  <net id="imdf_net_1757427296.2363" type="http://www.pnml.org/version-2009/grammar/ptnet">
     <name>
-      <text>imdf_net_1751016397.1143732</text>
+      <text>imdf_net_1757427296.2363</text>
     </name>
     <page id="n0">
       <place id="source">
@@ -13,14 +13,14 @@
           <text>1</text>
         </initialMarking>
       </place>
-      <place id="sink">
-        <name>
-          <text>sink</text>
-        </name>
-      </place>
       <place id="p_5">
         <name>
           <text>p_5</text>
+        </name>
+      </place>
+      <place id="sink">
+        <name>
+          <text>sink</text>
         </name>
       </place>
       <place id="p_6">
@@ -28,24 +28,18 @@
           <text>p_6</text>
         </name>
       </place>
-      <transition id="5952605a-8cbf-4adc-a29f-17985db3cd08">
-        <name>
-          <text>place order</text>
-        </name>
-      </transition>
-      <transition id="skip_6">
-        <name>
-          <text>skip_6</text>
-        </name>
-        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="4c9b92c9-ca49-41a2-8ab9-10d722b7885f"/>
-      </transition>
       <transition id="tau_1">
         <name>
           <text>tau_1</text>
         </name>
-        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="f94dc22b-dc30-4d5e-92ec-cc96bfe08a6a"/>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="37aade14-88ab-4c1a-ac0b-85408d061794"/>
       </transition>
-      <transition id="fc76348b-3532-46dd-8d48-32999e99b9f6">
+      <transition id="4a3d5cf8-3f84-4a44-a48e-b584d244aea8">
+        <name>
+          <text>place order</text>
+        </name>
+      </transition>
+      <transition id="f6ad7cbe-b2ff-461f-b4de-e29b4cc0eba7">
         <name>
           <text>confirm order</text>
         </name>
@@ -54,18 +48,24 @@
         <name>
           <text>skip_5</text>
         </name>
-        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="8b301fdc-fde1-4676-b7a0-b682e86d6a3d"/>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="4a52e5dd-c891-40c5-b42b-1bcbd0e81d5e"/>
       </transition>
-      <arc id="5264861568" source="source" target="tau_1"/>
-      <arc id="5264866944" source="skip_6" target="sink"/>
-      <arc id="5264854752" source="tau_1" target="p_5"/>
-      <arc id="5264852544" source="p_5" target="5952605a-8cbf-4adc-a29f-17985db3cd08"/>
-      <arc id="5264851008" source="p_5" target="fc76348b-3532-46dd-8d48-32999e99b9f6"/>
-      <arc id="5264854464" source="fc76348b-3532-46dd-8d48-32999e99b9f6" target="p_6"/>
-      <arc id="5264862144" source="skip_5" target="p_5"/>
-      <arc id="5264859792" source="5952605a-8cbf-4adc-a29f-17985db3cd08" target="p_6"/>
-      <arc id="5264866704" source="p_6" target="skip_5"/>
-      <arc id="5264854944" source="p_6" target="skip_6"/>
+      <transition id="skip_6">
+        <name>
+          <text>skip_6</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="dff2c9b8-8a81-45ac-904d-326e68e20018"/>
+      </transition>
+      <arc id="5497010384" source="p_6" target="skip_6"/>
+      <arc id="5497007760" source="p_6" target="skip_5"/>
+      <arc id="5490539344" source="source" target="tau_1"/>
+      <arc id="5496997072" source="skip_6" target="sink"/>
+      <arc id="5497007888" source="tau_1" target="p_5"/>
+      <arc id="4691589136" source="p_5" target="4a3d5cf8-3f84-4a44-a48e-b584d244aea8"/>
+      <arc id="4691588432" source="4a3d5cf8-3f84-4a44-a48e-b584d244aea8" target="p_6"/>
+      <arc id="4878460048" source="p_5" target="f6ad7cbe-b2ff-461f-b4de-e29b4cc0eba7"/>
+      <arc id="4878462736" source="f6ad7cbe-b2ff-461f-b4de-e29b4cc0eba7" target="p_6"/>
+      <arc id="5497002384" source="skip_5" target="p_5"/>
     </page>
     <finalmarkings>
       <marking>

@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
-  <net id="imdf_net_1751016559.509396" type="http://www.pnml.org/version-2009/grammar/ptnet">
+  <net id="imdf_net_1757427408.56704" type="http://www.pnml.org/version-2009/grammar/ptnet">
     <name>
-      <text>imdf_net_1751016559.509396</text>
+      <text>imdf_net_1757427408.56704</text>
     </name>
     <page id="n0">
       <place id="source">
@@ -18,13 +18,13 @@
           <text>sink</text>
         </name>
       </place>
-      <transition id="47938b98-8e6a-4e80-8f60-772a6732b3b1">
+      <transition id="5ea8cbda-d994-47c1-abd2-24cbfba7edc5">
         <name>
           <text>Issue Credit Note</text>
         </name>
       </transition>
-      <arc id="5606611872" source="source" target="47938b98-8e6a-4e80-8f60-772a6732b3b1"/>
-      <arc id="5606611296" source="47938b98-8e6a-4e80-8f60-772a6732b3b1" target="sink"/>
+      <arc id="5862606416" source="source" target="5ea8cbda-d994-47c1-abd2-24cbfba7edc5"/>
+      <arc id="5135404880" source="5ea8cbda-d994-47c1-abd2-24cbfba7edc5" target="sink"/>
     </page>
     <finalmarkings>
       <marking>

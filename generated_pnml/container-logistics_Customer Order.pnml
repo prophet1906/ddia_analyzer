@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
-  <net id="imdf_net_1751016351.620341" type="http://www.pnml.org/version-2009/grammar/ptnet">
+  <net id="imdf_net_1757427262.486322" type="http://www.pnml.org/version-2009/grammar/ptnet">
     <name>
-      <text>imdf_net_1751016351.620341</text>
+      <text>imdf_net_1757427262.486322</text>
     </name>
     <page id="n0">
       <place id="source">
@@ -23,28 +23,28 @@
           <text>p_3</text>
         </name>
       </place>
-      <transition id="0bf97a35-46fa-4fff-b15f-f92e943db173">
+      <transition id="d6346a18-47da-4bd2-aa2d-8e5a6fe13090">
         <name>
           <text>Register Customer Order</text>
-        </name>
-      </transition>
-      <transition id="64ea7fd8-086f-465e-9abe-12189c1a754b">
-        <name>
-          <text>Create Transport Document</text>
         </name>
       </transition>
       <transition id="skip_1">
         <name>
           <text>skip_1</text>
         </name>
-        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="2b330e5b-d02d-4ec8-bedd-ce197dcfe4b1"/>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="56cd7dc1-a209-4c4f-b2c5-7300a98451ee"/>
       </transition>
-      <arc id="5561422016" source="skip_1" target="sink"/>
-      <arc id="5561423168" source="p_3" target="64ea7fd8-086f-465e-9abe-12189c1a754b"/>
-      <arc id="5519910960" source="source" target="0bf97a35-46fa-4fff-b15f-f92e943db173"/>
-      <arc id="5519914320" source="0bf97a35-46fa-4fff-b15f-f92e943db173" target="p_3"/>
-      <arc id="5519916624" source="p_3" target="skip_1"/>
-      <arc id="5561421872" source="64ea7fd8-086f-465e-9abe-12189c1a754b" target="sink"/>
+      <transition id="d383dfad-2248-4893-8204-7448f0753aa0">
+        <name>
+          <text>Create Transport Document</text>
+        </name>
+      </transition>
+      <arc id="4593201936" source="source" target="d6346a18-47da-4bd2-aa2d-8e5a6fe13090"/>
+      <arc id="4596586000" source="skip_1" target="sink"/>
+      <arc id="4593198672" source="d6346a18-47da-4bd2-aa2d-8e5a6fe13090" target="p_3"/>
+      <arc id="5139121808" source="p_3" target="d383dfad-2248-4893-8204-7448f0753aa0"/>
+      <arc id="4596589520" source="p_3" target="skip_1"/>
+      <arc id="5675630032" source="d383dfad-2248-4893-8204-7448f0753aa0" target="sink"/>
     </page>
     <finalmarkings>
       <marking>

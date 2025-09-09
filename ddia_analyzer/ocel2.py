@@ -1,4 +1,7 @@
 import os
+import gc
+import tracemalloc
+import time
 import pm4py
 import logging
 from pathlib import Path
@@ -58,13 +61,25 @@ def __fix_pnml_type(path: str):
         file.write(modified_content)
 
 def get_stats(scenario, ocel):
+    gc.collect() # Force Garbage Collection
     logger.info("=" * 30)
     logger.info(scenario)
+    logger.info(f"#events = {len(ocel.events)}")
+    logger.info(f"#objects = {len(ocel.objects)}")
+    logger.info(f"#relations = {len(ocel.relations)}")
+    discovery_start_time = time.perf_counter()
+    tracemalloc.start() # Start Tracing Memory Allocations
     ocpn = pm4py.discover_oc_petri_net(ocel)
+    discovery_end_time = time.perf_counter()
+    current_memory, peak_memory = tracemalloc.get_traced_memory()
+    tracemalloc.stop() # Stop Tracing Memory Allocations
+    logger.info(f"Current memory: {current_memory / (1024 * 1024):.2f} MiB")
+    logger.info(f"Peak memory usage between timestamps: {peak_memory / (1024 * 1024):.2f} MiB")
+    logger.info(f"Time taken for OCPN discovery: {discovery_end_time - discovery_start_time:.6f} seconds")
     scenario_pn_path = f"generated_ocpn/{scenario}.png"
     pm4py.save_vis_ocpn(ocpn, scenario_pn_path)
     logger.info(f"Exported {scenario}")
-    object_types = pm4py.ocel_get_object_types(ocel)
+    # object_types = pm4py.ocel_get_object_types(ocel)
     for o in ocpn["object_types"]:
         # export pnml
         export_pnml(f"{scenario}_{o}", ocpn["petri_nets"][o][0], ocpn["petri_nets"][o][1], ocpn["petri_nets"][o][2])
@@ -85,10 +100,10 @@ def get_stats(scenario, ocel):
         fitness_2 = pm4py.fitness_alignments(log, ocpn["petri_nets"][o][0], ocpn["petri_nets"][o][1], ocpn["petri_nets"][o][2])
         logger.info(f"fitness: alignments = {fitness_2}")
         # precision
-        precision_1 = pm4py.precision_token_based_replay(log, ocpn["petri_nets"][o][0], ocpn["petri_nets"][o][1], ocpn["petri_nets"][o][2])
-        logger.info(f"precision: token based replay = {precision_1}")
-        precision_2 = pm4py.precision_alignments(log, ocpn["petri_nets"][o][0], ocpn["petri_nets"][o][1], ocpn["petri_nets"][o][2])
-        logger.info(f"precision: alignments = {precision_2}")
+        # precision_1 = pm4py.precision_token_based_replay(log, ocpn["petri_nets"][o][0], ocpn["petri_nets"][o][1], ocpn["petri_nets"][o][2])
+        # logger.info(f"precision: token based replay = {precision_1}")
+        # precision_2 = pm4py.precision_alignments(log, ocpn["petri_nets"][o][0], ocpn["petri_nets"][o][1], ocpn["petri_nets"][o][2])
+        # logger.info(f"precision: alignments = {precision_2}")
         # generalization
         generalization = generalization_evaluator.apply(log, ocpn["petri_nets"][o][0], ocpn["petri_nets"][o][1], ocpn["petri_nets"][o][2])
         logger.info(f"generalization = {generalization}")
