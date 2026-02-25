@@ -291,6 +291,8 @@ The miner generates the following outputs in the mounted directories:
 
 Analysis results and metrics are printed to the console (stdout).
 
+**Note:** The `reported_results/` folder contains the results from the run that was included in the paper.
+
 ### Metrics Computed
 
 For each object type in the OCEL, the following metrics are computed and displayed:

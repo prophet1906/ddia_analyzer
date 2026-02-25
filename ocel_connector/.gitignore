@@ -1,0 +1,17 @@
+# Build output
+target/
+
+# OCEL output files
+output/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# OS
+.DS_Store
+
+# Papers (downloaded from arxiv)
+papers/*.pdf
+papers/*.md
