@@ -1,5 +1,25 @@
 # Formal Verification of Distributed Data-Intensive Application using Petri Nets
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+This repository contains the artifact for the COORDINATION 2026 paper: *"Formal verification of distributed, data-intensive microservice applications using Petri Nets"*.
+
+## Quick Start (Artifact Evaluation)
+
+For artifact evaluation, we provide a push-button script that automates the entire evaluation process:
+
+```bash
+git clone https://github.com/prophet1906/ddia_analyzer.git
+cd ddia_analyzer
+./run-all.sh --quick    # Quick sanity check (~5 minutes)
+./run-all.sh --all      # Full evaluation (~15-20 minutes)
+./run-all.sh --help     # Show all options
+```
+
+The script automatically checks prerequisites, builds Docker images, processes all datasets, and verifies functional outcomes F1-F3. For F4-F5 (CTL model checking), manual verification in GreatSPN is required.
+
+---
+
 ## Prerequisites
 
 - Docker and Docker Compose
@@ -11,17 +31,9 @@
 ```bash
 git clone https://github.com/prophet1906/ddia_analyzer.git
 cd ddia_analyzer
-git submodule update --init --recursive
 ```
 
-The `debezium-examples` submodule contains multiple CDC examples. For this demo, we only need the saga example. Use sparse checkout to download only the required files:
-
-```bash
-cd debezium-examples
-git sparse-checkout init --cone
-git sparse-checkout set saga
-cd ..
-```
+The `debezium-examples/saga` folder contains the Debezium SAGA example, sourced from [debezium/debezium-examples](https://github.com/debezium/debezium-examples/tree/main/saga) and included directly in this repository for convenience.
 
 ---
 
@@ -521,6 +533,24 @@ docker compose down -v
 
 ---
 
+## Repository Structure
+
+```
+ddia_analyzer/
+├── data/                    # OCEL 2.0 JSON input files
+├── debezium-examples/saga/  # Debezium SAGA example (included directly)
+├── miner/                   # Petri net discovery module
+├── ocel_connector/          # Kafka Connect OCEL sink connector
+├── scripts/                 # Helper scripts
+├── greatspn/                # GreatSPN project files
+├── reported_results/        # Pre-computed results from paper
+├── run-all.sh               # Push-button evaluation script
+├── LICENSE                  # MIT License
+└── README.md                # This file
+```
+
+---
+
 ## References
 
 - [OCEL 2.0 Standard](https://www.ocel-standard.org/)
@@ -528,3 +558,22 @@ docker compose down -v
 - [Kafka Connect Documentation](https://kafka.apache.org/documentation/#connect)
 - [Debezium SAGA Example](https://github.com/debezium/debezium-examples/tree/main/saga)
 - [GreatSPN](https://github.com/greatspn/SOURCES)
+
+---
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Citation
+
+If you use this artifact in your research, please cite our paper:
+
+```bibtex
+@inproceedings{shubham2026formal,
+  title={Formal verification of distributed, data-intensive microservice applications using Petri Nets},
+  author={Shubham and D'Souza, Meenakshi},
+  booktitle={COORDINATION 2026},
+  year={2026}
+}
+```
