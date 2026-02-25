@@ -564,16 +564,3 @@ ddia_analyzer/
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Citation
-
-If you use this artifact in your research, please cite our paper:
-
-```bibtex
-@inproceedings{shubham2026formal,
-  title={Formal verification of distributed, data-intensive microservice applications using Petri Nets},
-  author={Shubham and D'Souza, Meenakshi},
-  booktitle={COORDINATION 2026},
-  year={2026}
-}
-```
