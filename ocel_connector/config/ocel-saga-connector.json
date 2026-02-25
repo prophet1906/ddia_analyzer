@@ -1,0 +1,11 @@
+{
+    "name": "ocel-saga-sink",
+    "config": {
+        "connector.class": "io.debezium.connector.ocel.OcelSinkConnector",
+        "tasks.max": "1",
+        "topics": "dbserver4.purchaseorder.sagastate,order.purchaseorder.purchaseorder,customer.customer.customer,payment.payment.payment",
+        "ocel.output.file.path": "/tmp/ocel-output/saga-events.json",
+        "consumer.override.interceptor.classes": "",
+        "auto.offset.reset": "earliest"
+    }
+}
